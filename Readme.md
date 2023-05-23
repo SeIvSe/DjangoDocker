@@ -18,7 +18,7 @@ Windows:
 
 ## Запуск приложения:  
 1) Скачиваем с гитхаба проект и распаковываем в папку:  
-`git clone https://github.com/aerastov/SkillFactory_G4.git`  
+`git clone https://github.com/SeIvSe/DjangoDocker.git`  
 2) Переходим в директорию проекта и набираем:  
 `sudo docker-compose up -d`  //Linux
 `docker-compose up -d` //Docker Desktop (PowerShell)
