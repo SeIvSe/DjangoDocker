@@ -1,0 +1,19 @@
+2023-05-21 19:05:58.411 +04 [1] LOG:  starting PostgreSQL 15.3 (Debian 15.3-1.pgdg110+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 10.2.1-6) 10.2.1 20210110, 64-bit
+2023-05-21 19:05:58.411 +04 [1] LOG:  listening on IPv4 address "0.0.0.0", port 5433
+2023-05-21 19:05:58.411 +04 [1] LOG:  listening on IPv6 address "::", port 5433
+2023-05-21 19:05:58.424 +04 [1] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5433"
+2023-05-21 19:05:58.468 +04 [30] LOG:  database system was interrupted; last known up at 2023-05-15 22:02:27 +04
+2023-05-21 19:06:02.204 +04 [30] LOG:  database system was not properly shut down; automatic recovery in progress
+2023-05-21 19:06:02.271 +04 [30] LOG:  redo starts at 0/17A47C0
+2023-05-21 19:06:02.272 +04 [30] LOG:  invalid record length at 0/17A48A8: wanted 24, got 0
+2023-05-21 19:06:02.272 +04 [30] LOG:  redo done at 0/17A4870 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2023-05-21 19:06:02.317 +04 [28] LOG:  checkpoint starting: end-of-recovery immediate wait
+2023-05-21 19:06:02.402 +04 [28] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.023 s, sync=0.011 s, total=0.091 s; sync files=2, longest=0.006 s, average=0.006 s; distance=0 kB, estimate=0 kB
+2023-05-21 19:06:02.412 +04 [1] LOG:  database system is ready to accept connections
+2023-05-21 19:06:27.935 +04 [1] LOG:  received fast shutdown request
+2023-05-21 19:06:27.943 +04 [1] LOG:  aborting any active transactions
+2023-05-21 19:06:27.945 +04 [1] LOG:  background worker "logical replication launcher" (PID 48) exited with exit code 1
+2023-05-21 19:06:27.946 +04 [28] LOG:  shutting down
+2023-05-21 19:06:27.951 +04 [28] LOG:  checkpoint starting: shutdown immediate
+2023-05-21 19:06:28.015 +04 [28] LOG:  checkpoint complete: wrote 0 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.011 s, sync=0.001 s, total=0.070 s; sync files=0, longest=0.000 s, average=0.000 s; distance=0 kB, estimate=0 kB
+2023-05-21 19:06:28.036 +04 [1] LOG:  database system is shut down

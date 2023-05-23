@@ -1,0 +1,652 @@
+2023-05-21 22:58:41.583 +04 [1] LOG:  starting PostgreSQL 15.3 (Debian 15.3-1.pgdg110+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 10.2.1-6) 10.2.1 20210110, 64-bit
+2023-05-21 22:58:41.583 +04 [1] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2023-05-21 22:58:41.583 +04 [1] LOG:  listening on IPv6 address "::", port 5432
+2023-05-21 22:58:41.597 +04 [1] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+2023-05-21 22:58:41.636 +04 [30] LOG:  database system was interrupted; last known up at 2023-05-21 19:16:15 +04
+2023-05-21 22:58:42.379 +04 [38] FATAL:  the database system is starting up
+2023-05-21 22:58:44.501 +04 [46] FATAL:  the database system is starting up
+2023-05-21 22:58:45.295 +04 [30] LOG:  database system was not properly shut down; automatic recovery in progress
+2023-05-21 22:58:45.340 +04 [30] LOG:  redo starts at 0/17AED50
+2023-05-21 22:58:45.355 +04 [30] LOG:  invalid record length at 0/17B3A90: wanted 24, got 0
+2023-05-21 22:58:45.355 +04 [30] LOG:  redo done at 0/17B3A58 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.01 s
+2023-05-21 22:58:45.395 +04 [28] LOG:  checkpoint starting: end-of-recovery immediate wait
+2023-05-21 22:58:45.495 +04 [28] LOG:  checkpoint complete: wrote 9 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.026 s, sync=0.027 s, total=0.105 s; sync files=7, longest=0.006 s, average=0.004 s; distance=19 kB, estimate=19 kB
+2023-05-21 22:58:45.508 +04 [1] LOG:  database system is ready to accept connections
+2023-05-21 22:58:46.625 +04 [57] FATAL:  role "root" does not exist
+2023-05-21 22:58:48.737 +04 [65] FATAL:  role "root" does not exist
+2023-05-21 22:58:50.875 +04 [73] FATAL:  role "root" does not exist
+2023-05-21 22:58:53.006 +04 [81] FATAL:  role "root" does not exist
+2023-05-21 22:58:55.147 +04 [89] FATAL:  role "root" does not exist
+2023-05-21 22:58:57.307 +04 [97] FATAL:  role "root" does not exist
+2023-05-21 22:58:59.435 +04 [105] FATAL:  role "root" does not exist
+2023-05-21 22:59:00.564 +04 [106] FATAL:  password authentication failed for user "django_user"
+2023-05-21 22:59:00.564 +04 [106] DETAIL:  Role "django_user" does not exist.
+	Connection matched pg_hba.conf line 99: "host	all	all	0.0.0.0/0	md5"
+2023-05-21 22:59:00.587 +04 [107] FATAL:  password authentication failed for user "django_user"
+2023-05-21 22:59:00.587 +04 [107] DETAIL:  Role "django_user" does not exist.
+	Connection matched pg_hba.conf line 99: "host	all	all	0.0.0.0/0	md5"
+2023-05-21 22:59:00.594 +04 [108] FATAL:  password authentication failed for user "django_user"
+2023-05-21 22:59:00.594 +04 [108] DETAIL:  Role "django_user" does not exist.
+	Connection matched pg_hba.conf line 99: "host	all	all	0.0.0.0/0	md5"
+2023-05-21 22:59:00.602 +04 [109] FATAL:  password authentication failed for user "django_user"
+2023-05-21 22:59:00.602 +04 [109] DETAIL:  Role "django_user" does not exist.
+	Connection matched pg_hba.conf line 99: "host	all	all	0.0.0.0/0	md5"
+2023-05-21 22:59:00.609 +04 [110] FATAL:  password authentication failed for user "django_user"
+2023-05-21 22:59:00.609 +04 [110] DETAIL:  Role "django_user" does not exist.
+	Connection matched pg_hba.conf line 99: "host	all	all	0.0.0.0/0	md5"
+2023-05-21 22:59:00.617 +04 [111] FATAL:  password authentication failed for user "django_user"
+2023-05-21 22:59:00.617 +04 [111] DETAIL:  Role "django_user" does not exist.
+	Connection matched pg_hba.conf line 99: "host	all	all	0.0.0.0/0	md5"
+2023-05-21 22:59:01.630 +04 [120] FATAL:  role "root" does not exist
+2023-05-21 22:59:03.778 +04 [129] FATAL:  role "root" does not exist
+2023-05-21 22:59:05.938 +04 [137] FATAL:  role "root" does not exist
+2023-05-21 22:59:08.078 +04 [145] FATAL:  role "root" does not exist
+2023-05-21 22:59:10.237 +04 [153] FATAL:  role "root" does not exist
+2023-05-21 22:59:12.423 +04 [161] FATAL:  role "root" does not exist
+2023-05-21 22:59:14.595 +04 [169] FATAL:  role "root" does not exist
+2023-05-21 22:59:16.746 +04 [177] FATAL:  role "root" does not exist
+2023-05-21 22:59:18.915 +04 [185] FATAL:  role "root" does not exist
+2023-05-21 22:59:21.057 +04 [193] FATAL:  role "root" does not exist
+2023-05-21 22:59:23.274 +04 [201] FATAL:  role "root" does not exist
+2023-05-21 22:59:25.424 +04 [209] FATAL:  role "root" does not exist
+2023-05-21 22:59:27.546 +04 [217] FATAL:  role "root" does not exist
+2023-05-21 22:59:29.667 +04 [225] FATAL:  role "root" does not exist
+2023-05-21 22:59:31.807 +04 [233] FATAL:  role "root" does not exist
+2023-05-21 22:59:34.005 +04 [241] FATAL:  role "root" does not exist
+2023-05-21 22:59:36.126 +04 [249] FATAL:  role "root" does not exist
+2023-05-21 22:59:38.266 +04 [257] FATAL:  role "root" does not exist
+2023-05-21 22:59:40.395 +04 [265] FATAL:  role "root" does not exist
+2023-05-21 22:59:42.517 +04 [273] FATAL:  role "root" does not exist
+2023-05-21 22:59:44.656 +04 [282] FATAL:  role "root" does not exist
+2023-05-21 22:59:46.786 +04 [290] FATAL:  role "root" does not exist
+2023-05-21 22:59:48.907 +04 [298] FATAL:  role "root" does not exist
+2023-05-21 22:59:51.046 +04 [306] FATAL:  role "root" does not exist
+2023-05-21 22:59:53.194 +04 [314] FATAL:  role "root" does not exist
+2023-05-21 22:59:55.335 +04 [322] FATAL:  role "root" does not exist
+2023-05-21 22:59:57.496 +04 [330] FATAL:  role "root" does not exist
+2023-05-21 22:59:59.626 +04 [338] FATAL:  role "root" does not exist
+2023-05-21 23:00:01.764 +04 [346] FATAL:  role "root" does not exist
+2023-05-21 23:00:03.906 +04 [354] FATAL:  role "root" does not exist
+2023-05-21 23:00:06.055 +04 [362] FATAL:  role "root" does not exist
+2023-05-21 23:00:08.196 +04 [370] FATAL:  role "root" does not exist
+2023-05-21 23:00:10.347 +04 [378] FATAL:  role "root" does not exist
+2023-05-21 23:00:12.496 +04 [386] FATAL:  role "root" does not exist
+2023-05-21 23:00:14.675 +04 [394] FATAL:  role "root" does not exist
+2023-05-21 23:00:16.806 +04 [402] FATAL:  role "root" does not exist
+2023-05-21 23:00:18.936 +04 [410] FATAL:  role "root" does not exist
+2023-05-21 23:00:21.095 +04 [418] FATAL:  role "root" does not exist
+2023-05-21 23:00:23.246 +04 [426] FATAL:  role "root" does not exist
+2023-05-21 23:00:25.427 +04 [434] FATAL:  role "root" does not exist
+2023-05-21 23:00:27.557 +04 [442] FATAL:  role "root" does not exist
+2023-05-21 23:00:29.697 +04 [450] FATAL:  role "root" does not exist
+2023-05-21 23:00:31.816 +04 [458] FATAL:  role "root" does not exist
+2023-05-21 23:00:33.958 +04 [466] FATAL:  role "root" does not exist
+2023-05-21 23:00:36.136 +04 [474] FATAL:  role "root" does not exist
+2023-05-21 23:00:38.255 +04 [482] FATAL:  role "root" does not exist
+2023-05-21 23:00:40.405 +04 [490] FATAL:  role "root" does not exist
+2023-05-21 23:00:42.549 +04 [498] FATAL:  role "root" does not exist
+2023-05-21 23:00:44.697 +04 [506] FATAL:  role "root" does not exist
+2023-05-21 23:00:46.837 +04 [514] FATAL:  role "root" does not exist
+2023-05-21 23:00:48.967 +04 [522] FATAL:  role "root" does not exist
+2023-05-21 23:00:51.136 +04 [530] FATAL:  role "root" does not exist
+2023-05-21 23:00:53.296 +04 [538] FATAL:  role "root" does not exist
+2023-05-21 23:00:55.428 +04 [546] FATAL:  role "root" does not exist
+2023-05-21 23:00:57.607 +04 [554] FATAL:  role "root" does not exist
+2023-05-21 23:00:59.775 +04 [562] FATAL:  role "root" does not exist
+2023-05-21 23:01:01.977 +04 [570] FATAL:  role "root" does not exist
+2023-05-21 23:01:04.120 +04 [578] FATAL:  role "root" does not exist
+2023-05-21 23:01:06.277 +04 [586] FATAL:  role "root" does not exist
+2023-05-21 23:01:08.467 +04 [594] FATAL:  role "root" does not exist
+2023-05-21 23:01:10.637 +04 [602] FATAL:  role "root" does not exist
+2023-05-21 23:01:12.808 +04 [610] FATAL:  role "root" does not exist
+2023-05-21 23:01:14.988 +04 [618] FATAL:  role "root" does not exist
+2023-05-21 23:01:17.144 +04 [626] FATAL:  role "root" does not exist
+2023-05-21 23:01:19.285 +04 [634] FATAL:  role "root" does not exist
+2023-05-21 23:01:21.417 +04 [642] FATAL:  role "root" does not exist
+2023-05-21 23:01:23.556 +04 [650] FATAL:  role "root" does not exist
+2023-05-21 23:01:25.666 +04 [658] FATAL:  role "root" does not exist
+2023-05-21 23:01:27.787 +04 [666] FATAL:  role "root" does not exist
+2023-05-21 23:01:29.905 +04 [675] FATAL:  role "root" does not exist
+2023-05-21 23:01:32.025 +04 [683] FATAL:  role "root" does not exist
+2023-05-21 23:01:34.177 +04 [691] FATAL:  role "root" does not exist
+2023-05-21 23:01:36.347 +04 [699] FATAL:  role "root" does not exist
+2023-05-21 23:01:38.464 +04 [707] FATAL:  role "root" does not exist
+2023-05-21 23:01:40.597 +04 [715] FATAL:  role "root" does not exist
+2023-05-21 23:01:42.725 +04 [723] FATAL:  role "root" does not exist
+2023-05-21 23:01:44.846 +04 [731] FATAL:  role "root" does not exist
+2023-05-21 23:01:46.987 +04 [739] FATAL:  role "root" does not exist
+2023-05-21 23:01:49.167 +04 [747] FATAL:  role "root" does not exist
+2023-05-21 23:01:51.315 +04 [755] FATAL:  role "root" does not exist
+2023-05-21 23:01:53.453 +04 [763] FATAL:  role "root" does not exist
+2023-05-21 23:01:55.576 +04 [771] FATAL:  role "root" does not exist
+2023-05-21 23:01:57.725 +04 [779] FATAL:  role "root" does not exist
+2023-05-21 23:01:59.865 +04 [787] FATAL:  role "root" does not exist
+2023-05-21 23:02:02.026 +04 [795] FATAL:  role "root" does not exist
+2023-05-21 23:02:04.186 +04 [803] FATAL:  role "root" does not exist
+2023-05-21 23:02:06.305 +04 [811] FATAL:  role "root" does not exist
+2023-05-21 23:02:08.445 +04 [819] FATAL:  role "root" does not exist
+2023-05-21 23:02:10.566 +04 [827] FATAL:  role "root" does not exist
+2023-05-21 23:02:12.718 +04 [836] FATAL:  role "root" does not exist
+2023-05-21 23:02:14.866 +04 [844] FATAL:  role "root" does not exist
+2023-05-21 23:02:16.987 +04 [852] FATAL:  role "root" does not exist
+2023-05-21 23:02:19.136 +04 [860] FATAL:  role "root" does not exist
+2023-05-21 23:02:21.274 +04 [868] FATAL:  role "root" does not exist
+2023-05-21 23:02:23.405 +04 [876] FATAL:  role "root" does not exist
+2023-05-21 23:02:25.535 +04 [884] FATAL:  role "root" does not exist
+2023-05-21 23:02:27.736 +04 [892] FATAL:  role "root" does not exist
+2023-05-21 23:02:29.886 +04 [900] FATAL:  role "root" does not exist
+2023-05-21 23:02:32.046 +04 [908] FATAL:  role "root" does not exist
+2023-05-21 23:02:34.194 +04 [916] FATAL:  role "root" does not exist
+2023-05-21 23:02:36.355 +04 [924] FATAL:  role "root" does not exist
+2023-05-21 23:02:38.476 +04 [932] FATAL:  role "root" does not exist
+2023-05-21 23:02:40.646 +04 [940] FATAL:  role "root" does not exist
+2023-05-21 23:02:42.786 +04 [948] FATAL:  role "root" does not exist
+2023-05-21 23:02:44.915 +04 [956] FATAL:  role "root" does not exist
+2023-05-21 23:02:47.093 +04 [964] FATAL:  role "root" does not exist
+2023-05-21 23:02:49.247 +04 [972] FATAL:  role "root" does not exist
+2023-05-21 23:02:51.375 +04 [980] FATAL:  role "root" does not exist
+2023-05-21 23:02:53.495 +04 [988] FATAL:  role "root" does not exist
+2023-05-21 23:02:55.635 +04 [996] FATAL:  role "root" does not exist
+2023-05-21 23:02:57.774 +04 [1004] FATAL:  role "root" does not exist
+2023-05-21 23:02:59.934 +04 [1012] FATAL:  role "root" does not exist
+2023-05-21 23:03:02.094 +04 [1020] FATAL:  role "root" does not exist
+2023-05-21 23:03:04.216 +04 [1029] FATAL:  role "root" does not exist
+2023-05-21 23:03:06.415 +04 [1037] FATAL:  role "root" does not exist
+2023-05-21 23:03:08.606 +04 [1045] FATAL:  role "root" does not exist
+2023-05-21 23:03:10.785 +04 [1054] FATAL:  role "root" does not exist
+2023-05-21 23:03:12.969 +04 [1063] FATAL:  role "root" does not exist
+2023-05-21 23:03:15.107 +04 [1071] FATAL:  role "root" does not exist
+2023-05-21 23:03:17.307 +04 [1080] FATAL:  role "root" does not exist
+2023-05-21 23:03:19.427 +04 [1088] FATAL:  role "root" does not exist
+2023-05-21 23:03:21.596 +04 [1096] FATAL:  role "root" does not exist
+2023-05-21 23:03:23.765 +04 [1104] FATAL:  role "root" does not exist
+2023-05-21 23:03:25.948 +04 [1112] FATAL:  role "root" does not exist
+2023-05-21 23:03:28.085 +04 [1120] FATAL:  role "root" does not exist
+2023-05-21 23:03:30.215 +04 [1128] FATAL:  role "root" does not exist
+2023-05-21 23:03:32.375 +04 [1136] FATAL:  role "root" does not exist
+2023-05-21 23:03:34.554 +04 [1144] FATAL:  role "root" does not exist
+2023-05-21 23:03:36.725 +04 [1152] FATAL:  role "root" does not exist
+2023-05-21 23:03:38.905 +04 [1161] FATAL:  role "root" does not exist
+2023-05-21 23:03:41.076 +04 [1169] FATAL:  role "root" does not exist
+2023-05-21 23:03:43.215 +04 [1177] FATAL:  role "root" does not exist
+2023-05-21 23:03:45.335 +04 [1185] FATAL:  role "root" does not exist
+2023-05-21 23:03:45.595 +04 [28] LOG:  checkpoint starting: time
+2023-05-21 23:03:45.763 +04 [28] LOG:  checkpoint complete: wrote 1 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.113 s, sync=0.004 s, total=0.169 s; sync files=1, longest=0.004 s, average=0.004 s; distance=2 kB, estimate=17 kB
+2023-05-21 23:03:47.505 +04 [1193] FATAL:  role "root" does not exist
+2023-05-21 23:03:49.675 +04 [1201] FATAL:  role "root" does not exist
+2023-05-21 23:03:51.806 +04 [1209] FATAL:  role "root" does not exist
+2023-05-21 23:03:53.946 +04 [1218] FATAL:  role "root" does not exist
+2023-05-21 23:03:56.065 +04 [1226] FATAL:  role "root" does not exist
+2023-05-21 23:03:58.227 +04 [1234] FATAL:  role "root" does not exist
+2023-05-21 23:04:00.399 +04 [1242] FATAL:  role "root" does not exist
+2023-05-21 23:04:02.537 +04 [1250] FATAL:  role "root" does not exist
+2023-05-21 23:04:04.665 +04 [1258] FATAL:  role "root" does not exist
+2023-05-21 23:04:06.785 +04 [1266] FATAL:  role "root" does not exist
+2023-05-21 23:04:08.903 +04 [1274] FATAL:  role "root" does not exist
+2023-05-21 23:04:11.027 +04 [1282] FATAL:  role "root" does not exist
+2023-05-21 23:04:13.175 +04 [1290] FATAL:  role "root" does not exist
+2023-05-21 23:04:15.325 +04 [1298] FATAL:  role "root" does not exist
+2023-05-21 23:04:17.474 +04 [1306] FATAL:  role "root" does not exist
+2023-05-21 23:04:19.605 +04 [1314] FATAL:  role "root" does not exist
+2023-05-21 23:04:21.775 +04 [1322] FATAL:  role "root" does not exist
+2023-05-21 23:04:23.905 +04 [1330] FATAL:  role "root" does not exist
+2023-05-21 23:04:26.013 +04 [1338] FATAL:  role "root" does not exist
+2023-05-21 23:04:28.155 +04 [1346] FATAL:  role "root" does not exist
+2023-05-21 23:04:30.316 +04 [1354] FATAL:  role "root" does not exist
+2023-05-21 23:04:32.485 +04 [1362] FATAL:  role "root" does not exist
+2023-05-21 23:04:34.656 +04 [1370] FATAL:  role "root" does not exist
+2023-05-21 23:04:36.814 +04 [1378] FATAL:  role "root" does not exist
+2023-05-21 23:04:38.977 +04 [1386] FATAL:  role "root" does not exist
+2023-05-21 23:04:41.155 +04 [1394] FATAL:  role "root" does not exist
+2023-05-21 23:04:43.326 +04 [1403] FATAL:  role "root" does not exist
+2023-05-21 23:04:45.534 +04 [1411] FATAL:  role "root" does not exist
+2023-05-21 23:04:47.743 +04 [1419] FATAL:  role "root" does not exist
+2023-05-21 23:04:49.936 +04 [1427] FATAL:  role "root" does not exist
+2023-05-21 23:04:52.075 +04 [1436] FATAL:  role "root" does not exist
+2023-05-21 23:04:54.236 +04 [1444] FATAL:  role "root" does not exist
+2023-05-21 23:04:56.365 +04 [1452] FATAL:  role "root" does not exist
+2023-05-21 23:04:58.557 +04 [1460] FATAL:  role "root" does not exist
+2023-05-21 23:05:00.695 +04 [1468] FATAL:  role "root" does not exist
+2023-05-21 23:05:02.889 +04 [1476] FATAL:  role "root" does not exist
+2023-05-21 23:05:05.026 +04 [1484] FATAL:  role "root" does not exist
+2023-05-21 23:05:07.176 +04 [1492] FATAL:  role "root" does not exist
+2023-05-21 23:05:09.315 +04 [1500] FATAL:  role "root" does not exist
+2023-05-21 23:05:11.434 +04 [1508] FATAL:  role "root" does not exist
+2023-05-21 23:05:13.598 +04 [1517] FATAL:  role "root" does not exist
+2023-05-21 23:05:15.757 +04 [1525] FATAL:  role "root" does not exist
+2023-05-21 23:05:17.898 +04 [1533] FATAL:  role "root" does not exist
+2023-05-21 23:05:20.038 +04 [1541] FATAL:  role "root" does not exist
+2023-05-21 23:05:22.176 +04 [1549] FATAL:  role "root" does not exist
+2023-05-21 23:05:24.333 +04 [1557] FATAL:  role "root" does not exist
+2023-05-21 23:05:26.488 +04 [1565] FATAL:  role "root" does not exist
+2023-05-21 23:05:28.616 +04 [1573] FATAL:  role "root" does not exist
+2023-05-21 23:05:30.806 +04 [1581] FATAL:  role "root" does not exist
+2023-05-21 23:05:33.010 +04 [1589] FATAL:  role "root" does not exist
+2023-05-21 23:05:35.154 +04 [1597] FATAL:  role "root" does not exist
+2023-05-21 23:05:37.287 +04 [1605] FATAL:  role "root" does not exist
+2023-05-21 23:05:39.404 +04 [1613] FATAL:  role "root" does not exist
+2023-05-21 23:05:41.524 +04 [1621] FATAL:  role "root" does not exist
+2023-05-21 23:05:43.656 +04 [1629] FATAL:  role "root" does not exist
+2023-05-21 23:05:45.763 +04 [1637] FATAL:  role "root" does not exist
+2023-05-21 23:05:47.941 +04 [1645] FATAL:  role "root" does not exist
+2023-05-21 23:05:50.085 +04 [1653] FATAL:  role "root" does not exist
+2023-05-21 23:05:52.194 +04 [1661] FATAL:  role "root" does not exist
+2023-05-21 23:05:54.340 +04 [1669] FATAL:  role "root" does not exist
+2023-05-21 23:05:56.466 +04 [1678] FATAL:  role "root" does not exist
+2023-05-21 23:05:58.605 +04 [1686] FATAL:  role "root" does not exist
+2023-05-21 23:06:00.726 +04 [1694] FATAL:  role "root" does not exist
+2023-05-21 23:06:02.896 +04 [1702] FATAL:  role "root" does not exist
+2023-05-21 23:06:05.095 +04 [1710] FATAL:  role "root" does not exist
+2023-05-21 23:06:07.216 +04 [1718] FATAL:  role "root" does not exist
+2023-05-21 23:06:09.404 +04 [1726] FATAL:  role "root" does not exist
+2023-05-21 23:06:11.537 +04 [1734] FATAL:  role "root" does not exist
+2023-05-21 23:06:13.666 +04 [1742] FATAL:  role "root" does not exist
+2023-05-21 23:06:15.857 +04 [1750] FATAL:  role "root" does not exist
+2023-05-21 23:06:17.995 +04 [1758] FATAL:  role "root" does not exist
+2023-05-21 23:06:20.125 +04 [1766] FATAL:  role "root" does not exist
+2023-05-21 23:06:22.285 +04 [1774] FATAL:  role "root" does not exist
+2023-05-21 23:06:24.424 +04 [1782] FATAL:  role "root" does not exist
+2023-05-21 23:06:26.567 +04 [1790] FATAL:  role "root" does not exist
+2023-05-21 23:06:28.686 +04 [1798] FATAL:  role "root" does not exist
+2023-05-21 23:06:30.826 +04 [1806] FATAL:  role "root" does not exist
+2023-05-21 23:06:32.945 +04 [1814] FATAL:  role "root" does not exist
+2023-05-21 23:06:35.064 +04 [1822] FATAL:  role "root" does not exist
+2023-05-21 23:06:37.204 +04 [1830] FATAL:  role "root" does not exist
+2023-05-21 23:06:39.344 +04 [1838] FATAL:  role "root" does not exist
+2023-05-21 23:06:41.483 +04 [1846] FATAL:  role "root" does not exist
+2023-05-21 23:06:43.610 +04 [1855] FATAL:  role "root" does not exist
+2023-05-21 23:06:45.725 +04 [1863] FATAL:  role "root" does not exist
+2023-05-21 23:06:47.854 +04 [1871] FATAL:  role "root" does not exist
+2023-05-21 23:06:49.985 +04 [1879] FATAL:  role "root" does not exist
+2023-05-21 23:06:52.116 +04 [1887] FATAL:  role "root" does not exist
+2023-05-21 23:06:54.234 +04 [1895] FATAL:  role "root" does not exist
+2023-05-21 23:06:56.365 +04 [1903] FATAL:  role "root" does not exist
+2023-05-21 23:06:58.504 +04 [1911] FATAL:  role "root" does not exist
+2023-05-21 23:07:00.635 +04 [1919] FATAL:  role "root" does not exist
+2023-05-21 23:07:02.755 +04 [1927] FATAL:  role "root" does not exist
+2023-05-21 23:07:04.864 +04 [1935] FATAL:  role "root" does not exist
+2023-05-21 23:07:07.034 +04 [1943] FATAL:  role "root" does not exist
+2023-05-21 23:07:09.154 +04 [1951] FATAL:  role "root" does not exist
+2023-05-21 23:07:11.322 +04 [1959] FATAL:  role "root" does not exist
+2023-05-21 23:07:13.459 +04 [1967] FATAL:  role "root" does not exist
+2023-05-21 23:07:15.585 +04 [1975] FATAL:  role "root" does not exist
+2023-05-21 23:07:17.745 +04 [1983] FATAL:  role "root" does not exist
+2023-05-21 23:07:19.884 +04 [1991] FATAL:  role "root" does not exist
+2023-05-21 23:07:22.007 +04 [1999] FATAL:  role "root" does not exist
+2023-05-21 23:07:24.125 +04 [2007] FATAL:  role "root" does not exist
+2023-05-21 23:07:26.245 +04 [2015] FATAL:  role "root" does not exist
+2023-05-21 23:07:28.464 +04 [2023] FATAL:  role "root" does not exist
+2023-05-21 23:07:30.665 +04 [2031] FATAL:  role "root" does not exist
+2023-05-21 23:07:32.827 +04 [2039] FATAL:  role "root" does not exist
+2023-05-21 23:07:34.987 +04 [2048] FATAL:  role "root" does not exist
+2023-05-21 23:07:37.115 +04 [2056] FATAL:  role "root" does not exist
+2023-05-21 23:07:39.286 +04 [2064] FATAL:  role "root" does not exist
+2023-05-21 23:07:41.422 +04 [2072] FATAL:  role "root" does not exist
+2023-05-21 23:07:43.537 +04 [2080] FATAL:  role "root" does not exist
+2023-05-21 23:07:45.716 +04 [2088] FATAL:  role "root" does not exist
+2023-05-21 23:07:47.884 +04 [2096] FATAL:  role "root" does not exist
+2023-05-21 23:07:50.037 +04 [2104] FATAL:  role "root" does not exist
+2023-05-21 23:07:52.164 +04 [2112] FATAL:  role "root" does not exist
+2023-05-21 23:07:54.295 +04 [2120] FATAL:  role "root" does not exist
+2023-05-21 23:07:56.476 +04 [2129] FATAL:  role "root" does not exist
+2023-05-21 23:07:58.625 +04 [2137] FATAL:  role "root" does not exist
+2023-05-21 23:08:00.785 +04 [2145] FATAL:  role "root" does not exist
+2023-05-21 23:08:02.904 +04 [2153] FATAL:  role "root" does not exist
+2023-05-21 23:08:05.044 +04 [2161] FATAL:  role "root" does not exist
+2023-05-21 23:08:07.184 +04 [2169] FATAL:  role "root" does not exist
+2023-05-21 23:08:09.376 +04 [2177] FATAL:  role "root" does not exist
+2023-05-21 23:08:11.574 +04 [2186] FATAL:  role "root" does not exist
+2023-05-21 23:08:13.714 +04 [2194] FATAL:  role "root" does not exist
+2023-05-21 23:08:15.904 +04 [2202] FATAL:  role "root" does not exist
+2023-05-21 23:08:18.024 +04 [2210] FATAL:  role "root" does not exist
+2023-05-21 23:08:20.175 +04 [2218] FATAL:  role "root" does not exist
+2023-05-21 23:08:22.386 +04 [2226] FATAL:  role "root" does not exist
+2023-05-21 23:08:24.504 +04 [2234] FATAL:  role "root" does not exist
+2023-05-21 23:08:26.637 +04 [2242] FATAL:  role "root" does not exist
+2023-05-21 23:08:28.772 +04 [2250] FATAL:  role "root" does not exist
+2023-05-21 23:08:30.935 +04 [2258] FATAL:  role "root" does not exist
+2023-05-21 23:08:33.096 +04 [2266] FATAL:  role "root" does not exist
+2023-05-21 23:08:35.235 +04 [2274] FATAL:  role "root" does not exist
+2023-05-21 23:08:37.394 +04 [2282] FATAL:  role "root" does not exist
+2023-05-21 23:08:39.524 +04 [2290] FATAL:  role "root" does not exist
+2023-05-21 23:08:41.684 +04 [2298] FATAL:  role "root" does not exist
+2023-05-21 23:08:43.818 +04 [2306] FATAL:  role "root" does not exist
+2023-05-21 23:08:46.005 +04 [2314] FATAL:  role "root" does not exist
+2023-05-21 23:08:48.134 +04 [2322] FATAL:  role "root" does not exist
+2023-05-21 23:08:50.286 +04 [2330] FATAL:  role "root" does not exist
+2023-05-21 23:08:52.404 +04 [2338] FATAL:  role "root" does not exist
+2023-05-21 23:08:54.563 +04 [2347] FATAL:  role "root" does not exist
+2023-05-21 23:08:56.704 +04 [2355] FATAL:  role "root" does not exist
+2023-05-21 23:08:58.825 +04 [2363] FATAL:  role "root" does not exist
+2023-05-21 23:09:00.975 +04 [2371] FATAL:  role "root" does not exist
+2023-05-21 23:09:03.135 +04 [2379] FATAL:  role "root" does not exist
+2023-05-21 23:09:05.264 +04 [2387] FATAL:  role "root" does not exist
+2023-05-21 23:09:07.394 +04 [2395] FATAL:  role "root" does not exist
+2023-05-21 23:09:09.503 +04 [2403] FATAL:  role "root" does not exist
+2023-05-21 23:09:11.643 +04 [2411] FATAL:  role "root" does not exist
+2023-05-21 23:09:13.775 +04 [2419] FATAL:  role "root" does not exist
+2023-05-21 23:09:15.934 +04 [2427] FATAL:  role "root" does not exist
+2023-05-21 23:09:18.064 +04 [2435] FATAL:  role "root" does not exist
+2023-05-21 23:09:20.195 +04 [2443] FATAL:  role "root" does not exist
+2023-05-21 23:09:22.364 +04 [2451] FATAL:  role "root" does not exist
+2023-05-21 23:09:24.545 +04 [2460] FATAL:  role "root" does not exist
+2023-05-21 23:09:26.694 +04 [2468] FATAL:  role "root" does not exist
+2023-05-21 23:09:28.844 +04 [2476] FATAL:  role "root" does not exist
+2023-05-21 23:09:31.033 +04 [2484] FATAL:  role "root" does not exist
+2023-05-21 23:09:33.175 +04 [2492] FATAL:  role "root" does not exist
+2023-05-21 23:09:35.293 +04 [2501] FATAL:  role "root" does not exist
+2023-05-21 23:09:37.434 +04 [2509] FATAL:  role "root" does not exist
+2023-05-21 23:09:39.565 +04 [2517] FATAL:  role "root" does not exist
+2023-05-21 23:09:41.724 +04 [2525] FATAL:  role "root" does not exist
+2023-05-21 23:09:43.873 +04 [2533] FATAL:  role "root" does not exist
+2023-05-21 23:09:46.013 +04 [2541] FATAL:  role "root" does not exist
+2023-05-21 23:09:48.168 +04 [2549] FATAL:  role "root" does not exist
+2023-05-21 23:09:50.334 +04 [2557] FATAL:  role "root" does not exist
+2023-05-21 23:09:52.533 +04 [2565] FATAL:  role "root" does not exist
+2023-05-21 23:09:54.673 +04 [2574] FATAL:  role "root" does not exist
+2023-05-21 23:09:56.826 +04 [2582] FATAL:  role "root" does not exist
+2023-05-21 23:09:59.004 +04 [2590] FATAL:  role "root" does not exist
+2023-05-21 23:10:01.154 +04 [2598] FATAL:  role "root" does not exist
+2023-05-21 23:10:03.323 +04 [2606] FATAL:  role "root" does not exist
+2023-05-21 23:10:05.455 +04 [2614] FATAL:  role "root" does not exist
+2023-05-21 23:10:07.604 +04 [2622] FATAL:  role "root" does not exist
+2023-05-21 23:10:09.761 +04 [2630] FATAL:  role "root" does not exist
+2023-05-21 23:10:11.933 +04 [2639] FATAL:  role "root" does not exist
+2023-05-21 23:10:14.093 +04 [2647] FATAL:  role "root" does not exist
+2023-05-21 23:10:16.283 +04 [2655] FATAL:  role "root" does not exist
+2023-05-21 23:10:18.413 +04 [2663] FATAL:  role "root" does not exist
+2023-05-21 23:10:20.556 +04 [2671] FATAL:  role "root" does not exist
+2023-05-21 23:10:22.672 +04 [2679] FATAL:  role "root" does not exist
+2023-05-21 23:10:24.794 +04 [2687] FATAL:  role "root" does not exist
+2023-05-21 23:10:26.943 +04 [2695] FATAL:  role "root" does not exist
+2023-05-21 23:10:29.123 +04 [2703] FATAL:  role "root" does not exist
+2023-05-21 23:10:31.306 +04 [2711] FATAL:  role "root" does not exist
+2023-05-21 23:10:33.483 +04 [2719] FATAL:  role "root" does not exist
+2023-05-21 23:10:35.616 +04 [2727] FATAL:  role "root" does not exist
+2023-05-21 23:10:37.776 +04 [2735] FATAL:  role "root" does not exist
+2023-05-21 23:10:39.966 +04 [2743] FATAL:  role "root" does not exist
+2023-05-21 23:10:42.084 +04 [2751] FATAL:  role "root" does not exist
+2023-05-21 23:10:44.246 +04 [2759] FATAL:  role "root" does not exist
+2023-05-21 23:10:46.384 +04 [2767] FATAL:  role "root" does not exist
+2023-05-21 23:10:48.554 +04 [2775] FATAL:  role "root" does not exist
+2023-05-21 23:10:50.674 +04 [2783] FATAL:  role "root" does not exist
+2023-05-21 23:10:52.845 +04 [2791] FATAL:  role "root" does not exist
+2023-05-21 23:10:55.044 +04 [2799] FATAL:  role "root" does not exist
+2023-05-21 23:10:57.174 +04 [2807] FATAL:  role "root" does not exist
+2023-05-21 23:10:59.374 +04 [2815] FATAL:  role "root" does not exist
+2023-05-21 23:11:01.505 +04 [2823] FATAL:  role "root" does not exist
+2023-05-21 23:11:03.673 +04 [2831] FATAL:  role "root" does not exist
+2023-05-21 23:11:05.883 +04 [2839] FATAL:  role "root" does not exist
+2023-05-21 23:11:08.025 +04 [2847] FATAL:  role "root" does not exist
+2023-05-21 23:11:10.185 +04 [2855] FATAL:  role "root" does not exist
+2023-05-21 23:11:12.314 +04 [2863] FATAL:  role "root" does not exist
+2023-05-21 23:11:14.434 +04 [2871] FATAL:  role "root" does not exist
+2023-05-21 23:11:16.625 +04 [2879] FATAL:  role "root" does not exist
+2023-05-21 23:11:18.745 +04 [2887] FATAL:  role "root" does not exist
+2023-05-21 23:11:20.896 +04 [2895] FATAL:  role "root" does not exist
+2023-05-21 23:11:23.034 +04 [2903] FATAL:  role "root" does not exist
+2023-05-21 23:11:25.195 +04 [2911] FATAL:  role "root" does not exist
+2023-05-21 23:11:27.354 +04 [2919] FATAL:  role "root" does not exist
+2023-05-21 23:11:29.533 +04 [2927] FATAL:  role "root" does not exist
+2023-05-21 23:11:31.654 +04 [2935] FATAL:  role "root" does not exist
+2023-05-21 23:11:33.833 +04 [2943] FATAL:  role "root" does not exist
+2023-05-21 23:11:36.023 +04 [2951] FATAL:  role "root" does not exist
+2023-05-21 23:11:38.144 +04 [2959] FATAL:  role "root" does not exist
+2023-05-21 23:11:40.333 +04 [2967] FATAL:  role "root" does not exist
+2023-05-21 23:11:42.464 +04 [2975] FATAL:  role "root" does not exist
+2023-05-21 23:11:44.666 +04 [2983] FATAL:  role "root" does not exist
+2023-05-21 23:11:46.814 +04 [2992] FATAL:  role "root" does not exist
+2023-05-21 23:11:48.944 +04 [3000] FATAL:  role "root" does not exist
+2023-05-21 23:11:51.132 +04 [3008] FATAL:  role "root" does not exist
+2023-05-21 23:11:53.275 +04 [3016] FATAL:  role "root" does not exist
+2023-05-21 23:11:55.405 +04 [3024] FATAL:  role "root" does not exist
+2023-05-21 23:11:57.554 +04 [3032] FATAL:  role "root" does not exist
+2023-05-21 23:11:59.725 +04 [3040] FATAL:  role "root" does not exist
+2023-05-21 23:12:01.904 +04 [3048] FATAL:  role "root" does not exist
+2023-05-21 23:12:04.075 +04 [3056] FATAL:  role "root" does not exist
+2023-05-21 23:12:06.224 +04 [3064] FATAL:  role "root" does not exist
+2023-05-21 23:12:08.346 +04 [3072] FATAL:  role "root" does not exist
+2023-05-21 23:12:10.504 +04 [3080] FATAL:  role "root" does not exist
+2023-05-21 23:12:12.694 +04 [3088] FATAL:  role "root" does not exist
+2023-05-21 23:12:14.864 +04 [3097] FATAL:  role "root" does not exist
+2023-05-21 23:12:17.052 +04 [3105] FATAL:  role "root" does not exist
+2023-05-21 23:12:19.174 +04 [3113] FATAL:  role "root" does not exist
+2023-05-21 23:12:21.344 +04 [3121] FATAL:  role "root" does not exist
+2023-05-21 23:12:23.493 +04 [3129] FATAL:  role "root" does not exist
+2023-05-21 23:12:25.665 +04 [3137] FATAL:  role "root" does not exist
+2023-05-21 23:12:27.815 +04 [3145] FATAL:  role "root" does not exist
+2023-05-21 23:12:29.945 +04 [3153] FATAL:  role "root" does not exist
+2023-05-21 23:12:32.103 +04 [3161] FATAL:  role "root" does not exist
+2023-05-21 23:12:34.255 +04 [3169] FATAL:  role "root" does not exist
+2023-05-21 23:12:36.383 +04 [3177] FATAL:  role "root" does not exist
+2023-05-21 23:12:38.534 +04 [3185] FATAL:  role "root" does not exist
+2023-05-21 23:12:40.674 +04 [3193] FATAL:  role "root" does not exist
+2023-05-21 23:12:42.834 +04 [3201] FATAL:  role "root" does not exist
+2023-05-21 23:12:45.004 +04 [3209] FATAL:  role "root" does not exist
+2023-05-21 23:12:47.163 +04 [3217] FATAL:  role "root" does not exist
+2023-05-21 23:12:49.292 +04 [3225] FATAL:  role "root" does not exist
+2023-05-21 23:12:51.431 +04 [3233] FATAL:  role "root" does not exist
+2023-05-21 23:12:53.562 +04 [3241] FATAL:  role "root" does not exist
+2023-05-21 23:12:55.725 +04 [3249] FATAL:  role "root" does not exist
+2023-05-21 23:12:57.854 +04 [3257] FATAL:  role "root" does not exist
+2023-05-21 23:13:00.035 +04 [3265] FATAL:  role "root" does not exist
+2023-05-21 23:13:02.216 +04 [3273] FATAL:  role "root" does not exist
+2023-05-21 23:13:04.384 +04 [3281] FATAL:  role "root" does not exist
+2023-05-21 23:13:06.514 +04 [3289] FATAL:  role "root" does not exist
+2023-05-21 23:13:08.725 +04 [3297] FATAL:  role "root" does not exist
+2023-05-21 23:13:10.843 +04 [3305] FATAL:  role "root" does not exist
+2023-05-21 23:13:12.994 +04 [3313] FATAL:  role "root" does not exist
+2023-05-21 23:13:15.134 +04 [3321] FATAL:  role "root" does not exist
+2023-05-21 23:13:17.293 +04 [3329] FATAL:  role "root" does not exist
+2023-05-21 23:13:19.423 +04 [3338] FATAL:  role "root" does not exist
+2023-05-21 23:13:21.564 +04 [3346] FATAL:  role "root" does not exist
+2023-05-21 23:13:23.723 +04 [3354] FATAL:  role "root" does not exist
+2023-05-21 23:13:25.843 +04 [3362] FATAL:  role "root" does not exist
+2023-05-21 23:13:27.963 +04 [3370] FATAL:  role "root" does not exist
+2023-05-21 23:13:30.104 +04 [3379] FATAL:  role "root" does not exist
+2023-05-21 23:13:32.273 +04 [3387] FATAL:  role "root" does not exist
+2023-05-21 23:13:34.422 +04 [3395] FATAL:  role "root" does not exist
+2023-05-21 23:13:36.567 +04 [3403] FATAL:  role "root" does not exist
+2023-05-21 23:13:38.711 +04 [3412] FATAL:  role "root" does not exist
+2023-05-21 23:13:40.852 +04 [3420] FATAL:  role "root" does not exist
+2023-05-21 23:13:42.976 +04 [3428] FATAL:  role "root" does not exist
+2023-05-21 23:13:45.103 +04 [3436] FATAL:  role "root" does not exist
+2023-05-21 23:13:47.246 +04 [3444] FATAL:  role "root" does not exist
+2023-05-21 23:13:49.372 +04 [3452] FATAL:  role "root" does not exist
+2023-05-21 23:13:51.496 +04 [3460] FATAL:  role "root" does not exist
+2023-05-21 23:13:53.624 +04 [3468] FATAL:  role "root" does not exist
+2023-05-21 23:13:55.773 +04 [3476] FATAL:  role "root" does not exist
+2023-05-21 23:13:56.938 +04 [3477] FATAL:  password authentication failed for user "django_user"
+2023-05-21 23:13:56.938 +04 [3477] DETAIL:  Role "django_user" does not exist.
+	Connection matched pg_hba.conf line 99: "host	all	all	0.0.0.0/0	md5"
+2023-05-21 23:13:56.960 +04 [3478] FATAL:  password authentication failed for user "django_user"
+2023-05-21 23:13:56.960 +04 [3478] DETAIL:  Role "django_user" does not exist.
+	Connection matched pg_hba.conf line 99: "host	all	all	0.0.0.0/0	md5"
+2023-05-21 23:13:56.968 +04 [3479] FATAL:  password authentication failed for user "django_user"
+2023-05-21 23:13:56.968 +04 [3479] DETAIL:  Role "django_user" does not exist.
+	Connection matched pg_hba.conf line 99: "host	all	all	0.0.0.0/0	md5"
+2023-05-21 23:13:56.978 +04 [3480] FATAL:  password authentication failed for user "django_user"
+2023-05-21 23:13:56.978 +04 [3480] DETAIL:  Role "django_user" does not exist.
+	Connection matched pg_hba.conf line 99: "host	all	all	0.0.0.0/0	md5"
+2023-05-21 23:13:56.987 +04 [3481] FATAL:  password authentication failed for user "django_user"
+2023-05-21 23:13:56.987 +04 [3481] DETAIL:  Role "django_user" does not exist.
+	Connection matched pg_hba.conf line 99: "host	all	all	0.0.0.0/0	md5"
+2023-05-21 23:13:56.994 +04 [3482] FATAL:  password authentication failed for user "django_user"
+2023-05-21 23:13:56.994 +04 [3482] DETAIL:  Role "django_user" does not exist.
+	Connection matched pg_hba.conf line 99: "host	all	all	0.0.0.0/0	md5"
+2023-05-21 23:13:57.953 +04 [3490] FATAL:  role "root" does not exist
+2023-05-21 23:14:00.071 +04 [3499] FATAL:  role "root" does not exist
+2023-05-21 23:14:02.203 +04 [3507] FATAL:  role "root" does not exist
+2023-05-21 23:14:04.345 +04 [3515] FATAL:  role "root" does not exist
+2023-05-21 23:14:06.513 +04 [3523] FATAL:  role "root" does not exist
+2023-05-21 23:14:08.633 +04 [3531] FATAL:  role "root" does not exist
+2023-05-21 23:14:10.803 +04 [3539] FATAL:  role "root" does not exist
+2023-05-21 23:14:13.013 +04 [3547] FATAL:  role "root" does not exist
+2023-05-21 23:14:15.153 +04 [3555] FATAL:  role "root" does not exist
+2023-05-21 23:14:17.312 +04 [3563] FATAL:  role "root" does not exist
+2023-05-21 23:14:19.492 +04 [3571] FATAL:  role "root" does not exist
+2023-05-21 23:14:21.642 +04 [3579] FATAL:  role "root" does not exist
+2023-05-21 23:14:23.784 +04 [3587] FATAL:  role "root" does not exist
+2023-05-21 23:14:23.916 +04 [3588] FATAL:  password authentication failed for user "django_user"
+2023-05-21 23:14:23.916 +04 [3588] DETAIL:  Role "django_user" does not exist.
+	Connection matched pg_hba.conf line 99: "host	all	all	0.0.0.0/0	md5"
+2023-05-21 23:14:23.937 +04 [3589] FATAL:  password authentication failed for user "django_user"
+2023-05-21 23:14:23.937 +04 [3589] DETAIL:  Role "django_user" does not exist.
+	Connection matched pg_hba.conf line 99: "host	all	all	0.0.0.0/0	md5"
+2023-05-21 23:14:23.946 +04 [3590] FATAL:  password authentication failed for user "django_user"
+2023-05-21 23:14:23.946 +04 [3590] DETAIL:  Role "django_user" does not exist.
+	Connection matched pg_hba.conf line 99: "host	all	all	0.0.0.0/0	md5"
+2023-05-21 23:14:23.954 +04 [3591] FATAL:  password authentication failed for user "django_user"
+2023-05-21 23:14:23.954 +04 [3591] DETAIL:  Role "django_user" does not exist.
+	Connection matched pg_hba.conf line 99: "host	all	all	0.0.0.0/0	md5"
+2023-05-21 23:14:23.961 +04 [3592] FATAL:  password authentication failed for user "django_user"
+2023-05-21 23:14:23.961 +04 [3592] DETAIL:  Role "django_user" does not exist.
+	Connection matched pg_hba.conf line 99: "host	all	all	0.0.0.0/0	md5"
+2023-05-21 23:14:23.970 +04 [3593] FATAL:  password authentication failed for user "django_user"
+2023-05-21 23:14:23.970 +04 [3593] DETAIL:  Role "django_user" does not exist.
+	Connection matched pg_hba.conf line 99: "host	all	all	0.0.0.0/0	md5"
+2023-05-21 23:14:25.912 +04 [3601] FATAL:  role "root" does not exist
+2023-05-21 23:14:28.032 +04 [3609] FATAL:  role "root" does not exist
+2023-05-21 23:14:30.162 +04 [3617] FATAL:  role "root" does not exist
+2023-05-21 23:14:32.353 +04 [3625] FATAL:  role "root" does not exist
+2023-05-21 23:14:34.513 +04 [3633] FATAL:  role "root" does not exist
+2023-05-21 23:14:34.528 +04 [3634] FATAL:  password authentication failed for user "django_user"
+2023-05-21 23:14:34.528 +04 [3634] DETAIL:  Role "django_user" does not exist.
+	Connection matched pg_hba.conf line 99: "host	all	all	0.0.0.0/0	md5"
+2023-05-21 23:14:34.548 +04 [3635] FATAL:  password authentication failed for user "django_user"
+2023-05-21 23:14:34.548 +04 [3635] DETAIL:  Role "django_user" does not exist.
+	Connection matched pg_hba.conf line 99: "host	all	all	0.0.0.0/0	md5"
+2023-05-21 23:14:34.557 +04 [3636] FATAL:  password authentication failed for user "django_user"
+2023-05-21 23:14:34.557 +04 [3636] DETAIL:  Role "django_user" does not exist.
+	Connection matched pg_hba.conf line 99: "host	all	all	0.0.0.0/0	md5"
+2023-05-21 23:14:34.566 +04 [3637] FATAL:  password authentication failed for user "django_user"
+2023-05-21 23:14:34.566 +04 [3637] DETAIL:  Role "django_user" does not exist.
+	Connection matched pg_hba.conf line 99: "host	all	all	0.0.0.0/0	md5"
+2023-05-21 23:14:34.574 +04 [3638] FATAL:  password authentication failed for user "django_user"
+2023-05-21 23:14:34.574 +04 [3638] DETAIL:  Role "django_user" does not exist.
+	Connection matched pg_hba.conf line 99: "host	all	all	0.0.0.0/0	md5"
+2023-05-21 23:14:34.582 +04 [3639] FATAL:  password authentication failed for user "django_user"
+2023-05-21 23:14:34.582 +04 [3639] DETAIL:  Role "django_user" does not exist.
+	Connection matched pg_hba.conf line 99: "host	all	all	0.0.0.0/0	md5"
+2023-05-21 23:14:36.633 +04 [3647] FATAL:  role "root" does not exist
+2023-05-21 23:14:38.753 +04 [3655] FATAL:  role "root" does not exist
+2023-05-21 23:14:40.903 +04 [3663] FATAL:  role "root" does not exist
+2023-05-21 23:14:43.073 +04 [3671] FATAL:  role "root" does not exist
+2023-05-21 23:14:45.203 +04 [3679] FATAL:  role "root" does not exist
+2023-05-21 23:14:47.341 +04 [3687] FATAL:  role "root" does not exist
+2023-05-21 23:14:49.463 +04 [3696] FATAL:  role "root" does not exist
+2023-05-21 23:14:51.622 +04 [3704] FATAL:  role "root" does not exist
+2023-05-21 23:14:53.792 +04 [3712] FATAL:  role "root" does not exist
+2023-05-21 23:14:55.972 +04 [3720] FATAL:  role "root" does not exist
+2023-05-21 23:14:58.113 +04 [3728] FATAL:  role "root" does not exist
+2023-05-21 23:15:00.292 +04 [3736] FATAL:  role "root" does not exist
+2023-05-21 23:15:02.452 +04 [3744] FATAL:  role "root" does not exist
+2023-05-21 23:15:04.622 +04 [3752] FATAL:  role "root" does not exist
+2023-05-21 23:15:06.803 +04 [3760] FATAL:  role "root" does not exist
+2023-05-21 23:15:08.942 +04 [3768] FATAL:  role "root" does not exist
+2023-05-21 23:15:11.102 +04 [3776] FATAL:  role "root" does not exist
+2023-05-21 23:15:13.262 +04 [3784] FATAL:  role "root" does not exist
+2023-05-21 23:15:15.452 +04 [3792] FATAL:  role "root" does not exist
+2023-05-21 23:15:17.591 +04 [3800] FATAL:  role "root" does not exist
+2023-05-21 23:15:19.722 +04 [3808] FATAL:  role "root" does not exist
+2023-05-21 23:15:21.891 +04 [3816] FATAL:  role "root" does not exist
+2023-05-21 23:15:24.031 +04 [3824] FATAL:  role "root" does not exist
+2023-05-21 23:15:26.192 +04 [3832] FATAL:  role "root" does not exist
+2023-05-21 23:15:28.362 +04 [3840] FATAL:  role "root" does not exist
+2023-05-21 23:15:30.522 +04 [3848] FATAL:  role "root" does not exist
+2023-05-21 23:15:32.689 +04 [3856] FATAL:  role "root" does not exist
+2023-05-21 23:15:34.912 +04 [3864] FATAL:  role "root" does not exist
+2023-05-21 23:15:37.083 +04 [3872] FATAL:  role "root" does not exist
+2023-05-21 23:15:39.203 +04 [3880] FATAL:  role "root" does not exist
+2023-05-21 23:15:41.372 +04 [3888] FATAL:  role "root" does not exist
+2023-05-21 23:15:43.542 +04 [3896] FATAL:  role "root" does not exist
+2023-05-21 23:15:45.662 +04 [3905] FATAL:  role "root" does not exist
+2023-05-21 23:15:47.781 +04 [3913] FATAL:  role "root" does not exist
+2023-05-21 23:15:49.973 +04 [3921] FATAL:  role "root" does not exist
+2023-05-21 23:15:52.112 +04 [3929] FATAL:  role "root" does not exist
+2023-05-21 23:15:54.249 +04 [3937] FATAL:  role "root" does not exist
+2023-05-21 23:15:56.372 +04 [3945] FATAL:  role "root" does not exist
+2023-05-21 23:15:58.531 +04 [3953] FATAL:  role "root" does not exist
+2023-05-21 23:16:00.692 +04 [3961] FATAL:  role "root" does not exist
+2023-05-21 23:16:02.822 +04 [3969] FATAL:  role "root" does not exist
+2023-05-21 23:16:05.001 +04 [3977] FATAL:  role "root" does not exist
+2023-05-21 23:16:07.172 +04 [3985] FATAL:  role "root" does not exist
+2023-05-21 23:16:09.356 +04 [3993] FATAL:  role "root" does not exist
+2023-05-21 23:16:11.481 +04 [4001] FATAL:  role "root" does not exist
+2023-05-21 23:16:13.602 +04 [4010] FATAL:  role "root" does not exist
+2023-05-21 23:16:15.793 +04 [4019] FATAL:  role "root" does not exist
+2023-05-21 23:16:17.920 +04 [4027] FATAL:  role "root" does not exist
+2023-05-21 23:16:20.063 +04 [4036] FATAL:  role "root" does not exist
+2023-05-21 23:16:22.182 +04 [4044] FATAL:  role "root" does not exist
+2023-05-21 23:16:24.353 +04 [4052] FATAL:  role "root" does not exist
+2023-05-21 23:16:26.511 +04 [4060] FATAL:  role "root" does not exist
+2023-05-21 23:16:28.651 +04 [4068] FATAL:  role "root" does not exist
+2023-05-21 23:16:30.834 +04 [4076] FATAL:  role "root" does not exist
+2023-05-21 23:16:32.981 +04 [4084] FATAL:  role "root" does not exist
+2023-05-21 23:16:35.152 +04 [4093] FATAL:  role "root" does not exist
+2023-05-21 23:16:37.272 +04 [4101] FATAL:  role "root" does not exist
+2023-05-21 23:16:39.422 +04 [4109] FATAL:  role "root" does not exist
+2023-05-21 23:16:41.551 +04 [4118] FATAL:  role "root" does not exist
+2023-05-21 23:16:43.713 +04 [4127] FATAL:  role "root" does not exist
+2023-05-21 23:16:45.860 +04 [4135] FATAL:  role "root" does not exist
+2023-05-21 23:16:48.032 +04 [4143] FATAL:  role "root" does not exist
+2023-05-21 23:16:50.174 +04 [4151] FATAL:  role "root" does not exist
+2023-05-21 23:16:52.351 +04 [4159] FATAL:  role "root" does not exist
+2023-05-21 23:16:54.504 +04 [4167] FATAL:  role "root" does not exist
+2023-05-21 23:16:56.660 +04 [4175] FATAL:  role "root" does not exist
+2023-05-21 23:16:58.831 +04 [4183] FATAL:  role "root" does not exist
+2023-05-21 23:17:01.010 +04 [4191] FATAL:  role "root" does not exist
+2023-05-21 23:17:03.171 +04 [4199] FATAL:  role "root" does not exist
+2023-05-21 23:17:05.341 +04 [4207] FATAL:  role "root" does not exist
+2023-05-21 23:17:07.506 +04 [4215] FATAL:  role "root" does not exist
+2023-05-21 23:17:09.631 +04 [4223] FATAL:  role "root" does not exist
+2023-05-21 23:17:11.756 +04 [4231] FATAL:  role "root" does not exist
+2023-05-21 23:17:13.871 +04 [4239] FATAL:  role "root" does not exist
+2023-05-21 23:17:16.039 +04 [4247] FATAL:  role "root" does not exist
+2023-05-21 23:17:18.215 +04 [4255] FATAL:  role "root" does not exist
+2023-05-21 23:17:20.362 +04 [4263] FATAL:  role "root" does not exist
+2023-05-21 23:17:22.490 +04 [4271] FATAL:  role "root" does not exist
+2023-05-21 23:17:24.612 +04 [4279] FATAL:  role "root" does not exist
+2023-05-21 23:17:26.752 +04 [4287] FATAL:  role "root" does not exist
+2023-05-21 23:17:28.882 +04 [4296] FATAL:  role "root" does not exist
+2023-05-21 23:17:31.041 +04 [4304] FATAL:  role "root" does not exist
+2023-05-21 23:17:33.201 +04 [4312] FATAL:  role "root" does not exist
+2023-05-21 23:17:35.322 +04 [4320] FATAL:  role "root" does not exist
+2023-05-21 23:17:37.443 +04 [4328] FATAL:  role "root" does not exist
+2023-05-21 23:17:39.580 +04 [4336] FATAL:  role "root" does not exist
+2023-05-21 23:17:41.715 +04 [4344] FATAL:  role "root" does not exist
+2023-05-21 23:17:43.852 +04 [4352] FATAL:  role "root" does not exist
+2023-05-21 23:17:45.991 +04 [4361] FATAL:  role "root" does not exist
+2023-05-21 23:17:48.182 +04 [4369] FATAL:  role "root" does not exist
+2023-05-21 23:17:50.331 +04 [4378] FATAL:  role "root" does not exist
+2023-05-21 23:17:52.521 +04 [4386] FATAL:  role "root" does not exist
+2023-05-21 23:17:54.663 +04 [4394] FATAL:  role "root" does not exist
+2023-05-21 23:17:56.862 +04 [4402] FATAL:  role "root" does not exist
+2023-05-21 23:17:59.030 +04 [4410] FATAL:  role "root" does not exist
+2023-05-21 23:18:01.171 +04 [4419] FATAL:  role "root" does not exist
+2023-05-21 23:18:03.350 +04 [4427] FATAL:  role "root" does not exist
+2023-05-21 23:18:05.482 +04 [4435] FATAL:  role "root" does not exist
+2023-05-21 23:18:07.610 +04 [4443] FATAL:  role "root" does not exist
+2023-05-21 23:18:09.721 +04 [4451] FATAL:  role "root" does not exist
+2023-05-21 23:18:11.851 +04 [4459] FATAL:  role "root" does not exist
+2023-05-21 23:18:14.012 +04 [4467] FATAL:  role "root" does not exist
+2023-05-21 23:18:16.181 +04 [4475] FATAL:  role "root" does not exist
+2023-05-21 23:18:18.342 +04 [4483] FATAL:  role "root" does not exist
+2023-05-21 23:18:20.471 +04 [4491] FATAL:  role "root" does not exist
+2023-05-21 23:18:22.651 +04 [4499] FATAL:  role "root" does not exist
+2023-05-21 23:18:24.834 +04 [4507] FATAL:  role "root" does not exist
+2023-05-21 23:18:26.983 +04 [4515] FATAL:  role "root" does not exist
+2023-05-21 23:18:29.151 +04 [4523] FATAL:  role "root" does not exist
+2023-05-21 23:18:31.342 +04 [4531] FATAL:  role "root" does not exist
+2023-05-21 23:18:33.510 +04 [4539] FATAL:  role "root" does not exist
+2023-05-21 23:18:35.680 +04 [4547] FATAL:  role "root" does not exist
+2023-05-21 23:18:37.872 +04 [4555] FATAL:  role "root" does not exist
+2023-05-21 23:18:40.010 +04 [4564] FATAL:  role "root" does not exist
+2023-05-21 23:18:42.134 +04 [1] LOG:  received fast shutdown request
+2023-05-21 23:18:42.143 +04 [1] LOG:  aborting any active transactions
+2023-05-21 23:18:42.147 +04 [1] LOG:  background worker "logical replication launcher" (PID 49) exited with exit code 1
+2023-05-21 23:18:42.147 +04 [28] LOG:  shutting down
+2023-05-21 23:18:42.153 +04 [28] LOG:  checkpoint starting: shutdown immediate
+2023-05-21 23:18:42.170 +04 [4572] FATAL:  the database system is shutting down
+2023-05-21 23:18:42.226 +04 [28] LOG:  checkpoint complete: wrote 0 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.015 s, sync=0.001 s, total=0.079 s; sync files=0, longest=0.000 s, average=0.000 s; distance=0 kB, estimate=15 kB
+2023-05-21 23:18:42.245 +04 [1] LOG:  database system is shut down

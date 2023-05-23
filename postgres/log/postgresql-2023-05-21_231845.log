@@ -1,0 +1,44 @@
+2023-05-21 23:18:45.579 +04 [1] LOG:  starting PostgreSQL 15.3 (Debian 15.3-1.pgdg110+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 10.2.1-6) 10.2.1 20210110, 64-bit
+2023-05-21 23:18:45.579 +04 [1] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2023-05-21 23:18:45.579 +04 [1] LOG:  listening on IPv6 address "::", port 5432
+2023-05-21 23:18:45.594 +04 [1] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+2023-05-21 23:18:45.636 +04 [30] LOG:  database system was shut down at 2023-05-21 23:18:42 +04
+2023-05-21 23:18:45.688 +04 [1] LOG:  database system is ready to accept connections
+2023-05-21 23:18:46.413 +04 [41] FATAL:  role "root" does not exist
+2023-05-21 23:18:48.581 +04 [49] FATAL:  role "root" does not exist
+2023-05-21 23:18:50.725 +04 [57] FATAL:  role "root" does not exist
+2023-05-21 23:18:52.904 +04 [66] FATAL:  role "root" does not exist
+2023-05-21 23:18:54.639 +04 [67] FATAL:  password authentication failed for user "django_user"
+2023-05-21 23:18:54.639 +04 [67] DETAIL:  Role "django_user" does not exist.
+	Connection matched pg_hba.conf line 99: "host	all	all	0.0.0.0/0	md5"
+2023-05-21 23:18:54.662 +04 [68] FATAL:  password authentication failed for user "django_user"
+2023-05-21 23:18:54.662 +04 [68] DETAIL:  Role "django_user" does not exist.
+	Connection matched pg_hba.conf line 99: "host	all	all	0.0.0.0/0	md5"
+2023-05-21 23:18:54.671 +04 [69] FATAL:  password authentication failed for user "django_user"
+2023-05-21 23:18:54.671 +04 [69] DETAIL:  Role "django_user" does not exist.
+	Connection matched pg_hba.conf line 99: "host	all	all	0.0.0.0/0	md5"
+2023-05-21 23:18:54.679 +04 [70] FATAL:  password authentication failed for user "django_user"
+2023-05-21 23:18:54.679 +04 [70] DETAIL:  Role "django_user" does not exist.
+	Connection matched pg_hba.conf line 99: "host	all	all	0.0.0.0/0	md5"
+2023-05-21 23:18:54.687 +04 [71] FATAL:  password authentication failed for user "django_user"
+2023-05-21 23:18:54.687 +04 [71] DETAIL:  Role "django_user" does not exist.
+	Connection matched pg_hba.conf line 99: "host	all	all	0.0.0.0/0	md5"
+2023-05-21 23:18:54.696 +04 [72] FATAL:  password authentication failed for user "django_user"
+2023-05-21 23:18:54.696 +04 [72] DETAIL:  Role "django_user" does not exist.
+	Connection matched pg_hba.conf line 99: "host	all	all	0.0.0.0/0	md5"
+2023-05-21 23:18:55.029 +04 [80] FATAL:  role "root" does not exist
+2023-05-21 23:18:57.220 +04 [88] FATAL:  role "root" does not exist
+2023-05-21 23:18:59.383 +04 [96] FATAL:  role "root" does not exist
+2023-05-21 23:19:01.511 +04 [104] FATAL:  role "root" does not exist
+2023-05-21 23:19:03.650 +04 [112] FATAL:  role "root" does not exist
+2023-05-21 23:19:05.799 +04 [120] FATAL:  role "root" does not exist
+2023-05-21 23:19:07.941 +04 [128] FATAL:  role "root" does not exist
+2023-05-21 23:19:10.069 +04 [136] FATAL:  role "root" does not exist
+2023-05-21 23:19:12.166 +04 [144] FATAL:  role "root" does not exist
+2023-05-21 23:19:12.419 +04 [1] LOG:  received fast shutdown request
+2023-05-21 23:19:12.428 +04 [1] LOG:  aborting any active transactions
+2023-05-21 23:19:12.431 +04 [1] LOG:  background worker "logical replication launcher" (PID 33) exited with exit code 1
+2023-05-21 23:19:12.431 +04 [28] LOG:  shutting down
+2023-05-21 23:19:12.437 +04 [28] LOG:  checkpoint starting: shutdown immediate
+2023-05-21 23:19:12.540 +04 [28] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.030 s, sync=0.013 s, total=0.109 s; sync files=2, longest=0.008 s, average=0.007 s; distance=0 kB, estimate=0 kB
+2023-05-21 23:19:12.560 +04 [1] LOG:  database system is shut down

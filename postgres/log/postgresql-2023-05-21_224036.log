@@ -1,0 +1,335 @@
+2023-05-21 22:40:36.478 +04 [1] LOG:  starting PostgreSQL 15.3 (Debian 15.3-1.pgdg110+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 10.2.1-6) 10.2.1 20210110, 64-bit
+2023-05-21 22:40:36.479 +04 [1] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2023-05-21 22:40:36.479 +04 [1] LOG:  listening on IPv6 address "::", port 5432
+2023-05-21 22:40:36.494 +04 [1] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+2023-05-21 22:40:36.533 +04 [30] LOG:  database system was shut down at 2023-05-21 22:40:33 +04
+2023-05-21 22:40:36.581 +04 [1] LOG:  database system is ready to accept connections
+2023-05-21 22:40:37.402 +04 [41] FATAL:  role "root" does not exist
+2023-05-21 22:40:39.572 +04 [49] FATAL:  role "root" does not exist
+2023-05-21 22:40:41.710 +04 [57] FATAL:  role "root" does not exist
+2023-05-21 22:40:43.841 +04 [65] FATAL:  role "root" does not exist
+2023-05-21 22:40:45.971 +04 [73] FATAL:  role "root" does not exist
+2023-05-21 22:40:47.707 +04 [74] FATAL:  password authentication failed for user "django_user"
+2023-05-21 22:40:47.707 +04 [74] DETAIL:  Role "django_user" does not exist.
+	Connection matched pg_hba.conf line 99: "host	all	all	0.0.0.0/0	md5"
+2023-05-21 22:40:47.729 +04 [75] FATAL:  password authentication failed for user "django_user"
+2023-05-21 22:40:47.729 +04 [75] DETAIL:  Role "django_user" does not exist.
+	Connection matched pg_hba.conf line 99: "host	all	all	0.0.0.0/0	md5"
+2023-05-21 22:40:47.738 +04 [76] FATAL:  password authentication failed for user "django_user"
+2023-05-21 22:40:47.738 +04 [76] DETAIL:  Role "django_user" does not exist.
+	Connection matched pg_hba.conf line 99: "host	all	all	0.0.0.0/0	md5"
+2023-05-21 22:40:47.745 +04 [77] FATAL:  password authentication failed for user "django_user"
+2023-05-21 22:40:47.745 +04 [77] DETAIL:  Role "django_user" does not exist.
+	Connection matched pg_hba.conf line 99: "host	all	all	0.0.0.0/0	md5"
+2023-05-21 22:40:47.753 +04 [78] FATAL:  password authentication failed for user "django_user"
+2023-05-21 22:40:47.753 +04 [78] DETAIL:  Role "django_user" does not exist.
+	Connection matched pg_hba.conf line 99: "host	all	all	0.0.0.0/0	md5"
+2023-05-21 22:40:47.761 +04 [79] FATAL:  password authentication failed for user "django_user"
+2023-05-21 22:40:47.761 +04 [79] DETAIL:  Role "django_user" does not exist.
+	Connection matched pg_hba.conf line 99: "host	all	all	0.0.0.0/0	md5"
+2023-05-21 22:40:48.089 +04 [87] FATAL:  role "root" does not exist
+2023-05-21 22:40:50.219 +04 [95] FATAL:  role "root" does not exist
+2023-05-21 22:40:52.350 +04 [103] FATAL:  role "root" does not exist
+2023-05-21 22:40:54.530 +04 [111] FATAL:  role "root" does not exist
+2023-05-21 22:40:55.876 +04 [112] FATAL:  password authentication failed for user "django_user"
+2023-05-21 22:40:55.876 +04 [112] DETAIL:  Role "django_user" does not exist.
+	Connection matched pg_hba.conf line 99: "host	all	all	0.0.0.0/0	md5"
+2023-05-21 22:40:55.898 +04 [113] FATAL:  password authentication failed for user "django_user"
+2023-05-21 22:40:55.898 +04 [113] DETAIL:  Role "django_user" does not exist.
+	Connection matched pg_hba.conf line 99: "host	all	all	0.0.0.0/0	md5"
+2023-05-21 22:40:55.907 +04 [114] FATAL:  password authentication failed for user "django_user"
+2023-05-21 22:40:55.907 +04 [114] DETAIL:  Role "django_user" does not exist.
+	Connection matched pg_hba.conf line 99: "host	all	all	0.0.0.0/0	md5"
+2023-05-21 22:40:55.915 +04 [115] FATAL:  password authentication failed for user "django_user"
+2023-05-21 22:40:55.915 +04 [115] DETAIL:  Role "django_user" does not exist.
+	Connection matched pg_hba.conf line 99: "host	all	all	0.0.0.0/0	md5"
+2023-05-21 22:40:55.923 +04 [116] FATAL:  password authentication failed for user "django_user"
+2023-05-21 22:40:55.923 +04 [116] DETAIL:  Role "django_user" does not exist.
+	Connection matched pg_hba.conf line 99: "host	all	all	0.0.0.0/0	md5"
+2023-05-21 22:40:55.932 +04 [117] FATAL:  password authentication failed for user "django_user"
+2023-05-21 22:40:55.932 +04 [117] DETAIL:  Role "django_user" does not exist.
+	Connection matched pg_hba.conf line 99: "host	all	all	0.0.0.0/0	md5"
+2023-05-21 22:40:56.660 +04 [125] FATAL:  role "root" does not exist
+2023-05-21 22:40:58.790 +04 [133] FATAL:  role "root" does not exist
+2023-05-21 22:41:00.949 +04 [141] FATAL:  role "root" does not exist
+2023-05-21 22:41:03.103 +04 [149] FATAL:  role "root" does not exist
+2023-05-21 22:41:03.310 +04 [150] FATAL:  password authentication failed for user "django_user"
+2023-05-21 22:41:03.310 +04 [150] DETAIL:  Role "django_user" does not exist.
+	Connection matched pg_hba.conf line 99: "host	all	all	0.0.0.0/0	md5"
+2023-05-21 22:41:03.332 +04 [151] FATAL:  password authentication failed for user "django_user"
+2023-05-21 22:41:03.332 +04 [151] DETAIL:  Role "django_user" does not exist.
+	Connection matched pg_hba.conf line 99: "host	all	all	0.0.0.0/0	md5"
+2023-05-21 22:41:03.340 +04 [152] FATAL:  password authentication failed for user "django_user"
+2023-05-21 22:41:03.340 +04 [152] DETAIL:  Role "django_user" does not exist.
+	Connection matched pg_hba.conf line 99: "host	all	all	0.0.0.0/0	md5"
+2023-05-21 22:41:03.348 +04 [153] FATAL:  password authentication failed for user "django_user"
+2023-05-21 22:41:03.348 +04 [153] DETAIL:  Role "django_user" does not exist.
+	Connection matched pg_hba.conf line 99: "host	all	all	0.0.0.0/0	md5"
+2023-05-21 22:41:03.356 +04 [154] FATAL:  password authentication failed for user "django_user"
+2023-05-21 22:41:03.356 +04 [154] DETAIL:  Role "django_user" does not exist.
+	Connection matched pg_hba.conf line 99: "host	all	all	0.0.0.0/0	md5"
+2023-05-21 22:41:03.364 +04 [155] FATAL:  password authentication failed for user "django_user"
+2023-05-21 22:41:03.364 +04 [155] DETAIL:  Role "django_user" does not exist.
+	Connection matched pg_hba.conf line 99: "host	all	all	0.0.0.0/0	md5"
+2023-05-21 22:41:05.240 +04 [164] FATAL:  role "root" does not exist
+2023-05-21 22:41:07.420 +04 [172] FATAL:  role "root" does not exist
+2023-05-21 22:41:09.562 +04 [180] FATAL:  role "root" does not exist
+2023-05-21 22:41:11.700 +04 [188] FATAL:  role "root" does not exist
+2023-05-21 22:41:13.898 +04 [196] FATAL:  role "root" does not exist
+2023-05-21 22:41:16.078 +04 [204] FATAL:  role "root" does not exist
+2023-05-21 22:41:18.217 +04 [212] FATAL:  role "root" does not exist
+2023-05-21 22:41:20.364 +04 [220] FATAL:  role "root" does not exist
+2023-05-21 22:41:22.511 +04 [228] FATAL:  role "root" does not exist
+2023-05-21 22:41:24.670 +04 [236] FATAL:  role "root" does not exist
+2023-05-21 22:41:26.810 +04 [244] FATAL:  role "root" does not exist
+2023-05-21 22:41:28.968 +04 [252] FATAL:  role "root" does not exist
+2023-05-21 22:41:31.120 +04 [260] FATAL:  role "root" does not exist
+2023-05-21 22:41:33.292 +04 [268] FATAL:  role "root" does not exist
+2023-05-21 22:41:35.460 +04 [276] FATAL:  role "root" does not exist
+2023-05-21 22:41:37.611 +04 [284] FATAL:  role "root" does not exist
+2023-05-21 22:41:39.762 +04 [292] FATAL:  role "root" does not exist
+2023-05-21 22:41:41.882 +04 [300] FATAL:  role "root" does not exist
+2023-05-21 22:41:44.035 +04 [308] FATAL:  role "root" does not exist
+2023-05-21 22:41:46.176 +04 [316] FATAL:  role "root" does not exist
+2023-05-21 22:41:48.289 +04 [324] FATAL:  role "root" does not exist
+2023-05-21 22:41:50.441 +04 [332] FATAL:  role "root" does not exist
+2023-05-21 22:41:52.579 +04 [340] FATAL:  role "root" does not exist
+2023-05-21 22:41:54.730 +04 [348] FATAL:  role "root" does not exist
+2023-05-21 22:41:56.902 +04 [356] FATAL:  role "root" does not exist
+2023-05-21 22:41:59.058 +04 [364] FATAL:  role "root" does not exist
+2023-05-21 22:42:01.279 +04 [372] FATAL:  role "root" does not exist
+2023-05-21 22:42:03.398 +04 [380] FATAL:  role "root" does not exist
+2023-05-21 22:42:05.540 +04 [388] FATAL:  role "root" does not exist
+2023-05-21 22:42:07.711 +04 [396] FATAL:  role "root" does not exist
+2023-05-21 22:42:09.859 +04 [404] FATAL:  role "root" does not exist
+2023-05-21 22:42:12.040 +04 [412] FATAL:  role "root" does not exist
+2023-05-21 22:42:14.172 +04 [420] FATAL:  role "root" does not exist
+2023-05-21 22:42:16.338 +04 [428] FATAL:  role "root" does not exist
+2023-05-21 22:42:18.477 +04 [436] FATAL:  role "root" does not exist
+2023-05-21 22:42:20.628 +04 [444] FATAL:  role "root" does not exist
+2023-05-21 22:42:22.739 +04 [452] FATAL:  role "root" does not exist
+2023-05-21 22:42:24.893 +04 [460] FATAL:  role "root" does not exist
+2023-05-21 22:42:27.062 +04 [468] FATAL:  role "root" does not exist
+2023-05-21 22:42:29.200 +04 [476] FATAL:  role "root" does not exist
+2023-05-21 22:42:31.338 +04 [485] FATAL:  role "root" does not exist
+2023-05-21 22:42:33.481 +04 [493] FATAL:  role "root" does not exist
+2023-05-21 22:42:35.620 +04 [501] FATAL:  role "root" does not exist
+2023-05-21 22:42:37.789 +04 [509] FATAL:  role "root" does not exist
+2023-05-21 22:42:39.910 +04 [517] FATAL:  role "root" does not exist
+2023-05-21 22:42:42.071 +04 [525] FATAL:  role "root" does not exist
+2023-05-21 22:42:44.242 +04 [533] FATAL:  role "root" does not exist
+2023-05-21 22:42:46.432 +04 [541] FATAL:  role "root" does not exist
+2023-05-21 22:42:48.620 +04 [549] FATAL:  role "root" does not exist
+2023-05-21 22:42:50.762 +04 [558] FATAL:  role "root" does not exist
+2023-05-21 22:42:52.950 +04 [566] FATAL:  role "root" does not exist
+2023-05-21 22:42:54.642 +04 [567] FATAL:  password authentication failed for user "django_user"
+2023-05-21 22:42:54.642 +04 [567] DETAIL:  Role "django_user" does not exist.
+	Connection matched pg_hba.conf line 99: "host	all	all	0.0.0.0/0	md5"
+2023-05-21 22:42:54.664 +04 [568] FATAL:  password authentication failed for user "django_user"
+2023-05-21 22:42:54.664 +04 [568] DETAIL:  Role "django_user" does not exist.
+	Connection matched pg_hba.conf line 99: "host	all	all	0.0.0.0/0	md5"
+2023-05-21 22:42:54.671 +04 [569] FATAL:  password authentication failed for user "django_user"
+2023-05-21 22:42:54.671 +04 [569] DETAIL:  Role "django_user" does not exist.
+	Connection matched pg_hba.conf line 99: "host	all	all	0.0.0.0/0	md5"
+2023-05-21 22:42:54.678 +04 [570] FATAL:  password authentication failed for user "django_user"
+2023-05-21 22:42:54.678 +04 [570] DETAIL:  Role "django_user" does not exist.
+	Connection matched pg_hba.conf line 99: "host	all	all	0.0.0.0/0	md5"
+2023-05-21 22:42:54.687 +04 [571] FATAL:  password authentication failed for user "django_user"
+2023-05-21 22:42:54.687 +04 [571] DETAIL:  Role "django_user" does not exist.
+	Connection matched pg_hba.conf line 99: "host	all	all	0.0.0.0/0	md5"
+2023-05-21 22:42:54.694 +04 [572] FATAL:  password authentication failed for user "django_user"
+2023-05-21 22:42:54.694 +04 [572] DETAIL:  Role "django_user" does not exist.
+	Connection matched pg_hba.conf line 99: "host	all	all	0.0.0.0/0	md5"
+2023-05-21 22:42:55.098 +04 [580] FATAL:  role "root" does not exist
+2023-05-21 22:42:57.247 +04 [588] FATAL:  role "root" does not exist
+2023-05-21 22:42:59.369 +04 [596] FATAL:  role "root" does not exist
+2023-05-21 22:43:01.551 +04 [604] FATAL:  role "root" does not exist
+2023-05-21 22:43:03.702 +04 [612] FATAL:  role "root" does not exist
+2023-05-21 22:43:05.830 +04 [620] FATAL:  role "root" does not exist
+2023-05-21 22:43:07.987 +04 [628] FATAL:  role "root" does not exist
+2023-05-21 22:43:10.129 +04 [636] FATAL:  role "root" does not exist
+2023-05-21 22:43:12.259 +04 [644] FATAL:  role "root" does not exist
+2023-05-21 22:43:14.399 +04 [652] FATAL:  role "root" does not exist
+2023-05-21 22:43:16.568 +04 [660] FATAL:  role "root" does not exist
+2023-05-21 22:43:18.730 +04 [669] FATAL:  role "root" does not exist
+2023-05-21 22:43:20.871 +04 [677] FATAL:  role "root" does not exist
+2023-05-21 22:43:23.017 +04 [685] FATAL:  role "root" does not exist
+2023-05-21 22:43:25.189 +04 [693] FATAL:  role "root" does not exist
+2023-05-21 22:43:27.320 +04 [701] FATAL:  role "root" does not exist
+2023-05-21 22:43:29.489 +04 [710] FATAL:  role "root" does not exist
+2023-05-21 22:43:31.649 +04 [718] FATAL:  role "root" does not exist
+2023-05-21 22:43:33.810 +04 [726] FATAL:  role "root" does not exist
+2023-05-21 22:43:35.929 +04 [734] FATAL:  role "root" does not exist
+2023-05-21 22:43:38.069 +04 [742] FATAL:  role "root" does not exist
+2023-05-21 22:43:40.189 +04 [750] FATAL:  role "root" does not exist
+2023-05-21 22:43:42.380 +04 [758] FATAL:  role "root" does not exist
+2023-05-21 22:43:44.524 +04 [766] FATAL:  role "root" does not exist
+2023-05-21 22:43:46.688 +04 [774] FATAL:  role "root" does not exist
+2023-05-21 22:43:48.870 +04 [782] FATAL:  role "root" does not exist
+2023-05-21 22:43:50.998 +04 [790] FATAL:  role "root" does not exist
+2023-05-21 22:43:53.129 +04 [798] FATAL:  role "root" does not exist
+2023-05-21 22:43:55.250 +04 [806] FATAL:  role "root" does not exist
+2023-05-21 22:43:57.447 +04 [815] FATAL:  role "root" does not exist
+2023-05-21 22:43:59.640 +04 [823] FATAL:  role "root" does not exist
+2023-05-21 22:44:01.791 +04 [831] FATAL:  role "root" does not exist
+2023-05-21 22:44:03.978 +04 [839] FATAL:  role "root" does not exist
+2023-05-21 22:44:06.152 +04 [847] FATAL:  role "root" does not exist
+2023-05-21 22:44:08.299 +04 [855] FATAL:  role "root" does not exist
+2023-05-21 22:44:10.439 +04 [863] FATAL:  role "root" does not exist
+2023-05-21 22:44:12.630 +04 [871] FATAL:  role "root" does not exist
+2023-05-21 22:44:14.769 +04 [879] FATAL:  role "root" does not exist
+2023-05-21 22:44:16.975 +04 [887] FATAL:  role "root" does not exist
+2023-05-21 22:44:19.169 +04 [895] FATAL:  role "root" does not exist
+2023-05-21 22:44:21.338 +04 [903] FATAL:  role "root" does not exist
+2023-05-21 22:44:23.552 +04 [911] FATAL:  role "root" does not exist
+2023-05-21 22:44:24.508 +04 [912] FATAL:  password authentication failed for user "django_user"
+2023-05-21 22:44:24.508 +04 [912] DETAIL:  Role "django_user" does not exist.
+	Connection matched pg_hba.conf line 99: "host	all	all	0.0.0.0/0	md5"
+2023-05-21 22:44:24.530 +04 [913] FATAL:  password authentication failed for user "django_user"
+2023-05-21 22:44:24.530 +04 [913] DETAIL:  Role "django_user" does not exist.
+	Connection matched pg_hba.conf line 99: "host	all	all	0.0.0.0/0	md5"
+2023-05-21 22:44:24.538 +04 [914] FATAL:  password authentication failed for user "django_user"
+2023-05-21 22:44:24.538 +04 [914] DETAIL:  Role "django_user" does not exist.
+	Connection matched pg_hba.conf line 99: "host	all	all	0.0.0.0/0	md5"
+2023-05-21 22:44:24.546 +04 [915] FATAL:  password authentication failed for user "django_user"
+2023-05-21 22:44:24.546 +04 [915] DETAIL:  Role "django_user" does not exist.
+	Connection matched pg_hba.conf line 99: "host	all	all	0.0.0.0/0	md5"
+2023-05-21 22:44:24.554 +04 [916] FATAL:  password authentication failed for user "django_user"
+2023-05-21 22:44:24.554 +04 [916] DETAIL:  Role "django_user" does not exist.
+	Connection matched pg_hba.conf line 99: "host	all	all	0.0.0.0/0	md5"
+2023-05-21 22:44:24.562 +04 [917] FATAL:  password authentication failed for user "django_user"
+2023-05-21 22:44:24.562 +04 [917] DETAIL:  Role "django_user" does not exist.
+	Connection matched pg_hba.conf line 99: "host	all	all	0.0.0.0/0	md5"
+2023-05-21 22:44:25.670 +04 [925] FATAL:  role "root" does not exist
+2023-05-21 22:44:27.841 +04 [933] FATAL:  role "root" does not exist
+2023-05-21 22:44:30.002 +04 [941] FATAL:  role "root" does not exist
+2023-05-21 22:44:31.756 +04 [942] FATAL:  password authentication failed for user "django_user"
+2023-05-21 22:44:31.756 +04 [942] DETAIL:  Role "django_user" does not exist.
+	Connection matched pg_hba.conf line 99: "host	all	all	0.0.0.0/0	md5"
+2023-05-21 22:44:31.778 +04 [943] FATAL:  password authentication failed for user "django_user"
+2023-05-21 22:44:31.778 +04 [943] DETAIL:  Role "django_user" does not exist.
+	Connection matched pg_hba.conf line 99: "host	all	all	0.0.0.0/0	md5"
+2023-05-21 22:44:31.786 +04 [944] FATAL:  password authentication failed for user "django_user"
+2023-05-21 22:44:31.786 +04 [944] DETAIL:  Role "django_user" does not exist.
+	Connection matched pg_hba.conf line 99: "host	all	all	0.0.0.0/0	md5"
+2023-05-21 22:44:31.794 +04 [945] FATAL:  password authentication failed for user "django_user"
+2023-05-21 22:44:31.794 +04 [945] DETAIL:  Role "django_user" does not exist.
+	Connection matched pg_hba.conf line 99: "host	all	all	0.0.0.0/0	md5"
+2023-05-21 22:44:31.802 +04 [946] FATAL:  password authentication failed for user "django_user"
+2023-05-21 22:44:31.802 +04 [946] DETAIL:  Role "django_user" does not exist.
+	Connection matched pg_hba.conf line 99: "host	all	all	0.0.0.0/0	md5"
+2023-05-21 22:44:31.810 +04 [947] FATAL:  password authentication failed for user "django_user"
+2023-05-21 22:44:31.810 +04 [947] DETAIL:  Role "django_user" does not exist.
+	Connection matched pg_hba.conf line 99: "host	all	all	0.0.0.0/0	md5"
+2023-05-21 22:44:32.142 +04 [955] FATAL:  role "root" does not exist
+2023-05-21 22:44:34.300 +04 [963] FATAL:  role "root" does not exist
+2023-05-21 22:44:36.439 +04 [971] FATAL:  role "root" does not exist
+2023-05-21 22:44:38.598 +04 [979] FATAL:  role "root" does not exist
+2023-05-21 22:44:40.760 +04 [987] FATAL:  role "root" does not exist
+2023-05-21 22:44:42.906 +04 [995] FATAL:  role "root" does not exist
+2023-05-21 22:44:45.027 +04 [1003] FATAL:  role "root" does not exist
+2023-05-21 22:44:47.159 +04 [1011] FATAL:  role "root" does not exist
+2023-05-21 22:44:49.278 +04 [1019] FATAL:  role "root" does not exist
+2023-05-21 22:44:51.419 +04 [1027] FATAL:  role "root" does not exist
+2023-05-21 22:44:53.539 +04 [1035] FATAL:  role "root" does not exist
+2023-05-21 22:44:55.680 +04 [1044] FATAL:  role "root" does not exist
+2023-05-21 22:44:57.797 +04 [1052] FATAL:  role "root" does not exist
+2023-05-21 22:44:59.938 +04 [1060] FATAL:  role "root" does not exist
+2023-05-21 22:45:02.098 +04 [1068] FATAL:  role "root" does not exist
+2023-05-21 22:45:04.241 +04 [1076] FATAL:  role "root" does not exist
+2023-05-21 22:45:06.367 +04 [1084] FATAL:  role "root" does not exist
+2023-05-21 22:45:08.515 +04 [1092] FATAL:  role "root" does not exist
+2023-05-21 22:45:10.660 +04 [1100] FATAL:  role "root" does not exist
+2023-05-21 22:45:12.829 +04 [1108] FATAL:  role "root" does not exist
+2023-05-21 22:45:14.980 +04 [1116] FATAL:  role "root" does not exist
+2023-05-21 22:45:17.098 +04 [1124] FATAL:  role "root" does not exist
+2023-05-21 22:45:19.238 +04 [1132] FATAL:  role "root" does not exist
+2023-05-21 22:45:21.407 +04 [1140] FATAL:  role "root" does not exist
+2023-05-21 22:45:23.540 +04 [1148] FATAL:  role "root" does not exist
+2023-05-21 22:45:25.657 +04 [1156] FATAL:  role "root" does not exist
+2023-05-21 22:45:27.779 +04 [1164] FATAL:  role "root" does not exist
+2023-05-21 22:45:29.911 +04 [1172] FATAL:  role "root" does not exist
+2023-05-21 22:45:32.038 +04 [1180] FATAL:  role "root" does not exist
+2023-05-21 22:45:34.169 +04 [1188] FATAL:  role "root" does not exist
+2023-05-21 22:45:36.290 +04 [1196] FATAL:  role "root" does not exist
+2023-05-21 22:45:36.631 +04 [28] LOG:  checkpoint starting: time
+2023-05-21 22:45:36.730 +04 [28] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.026 s, sync=0.013 s, total=0.100 s; sync files=2, longest=0.007 s, average=0.007 s; distance=0 kB, estimate=0 kB
+2023-05-21 22:45:38.419 +04 [1204] FATAL:  role "root" does not exist
+2023-05-21 22:45:40.558 +04 [1212] FATAL:  role "root" does not exist
+2023-05-21 22:45:42.709 +04 [1220] FATAL:  role "root" does not exist
+2023-05-21 22:45:44.827 +04 [1228] FATAL:  role "root" does not exist
+2023-05-21 22:45:46.968 +04 [1236] FATAL:  role "root" does not exist
+2023-05-21 22:45:49.089 +04 [1244] FATAL:  role "root" does not exist
+2023-05-21 22:45:51.250 +04 [1252] FATAL:  role "root" does not exist
+2023-05-21 22:45:53.398 +04 [1260] FATAL:  role "root" does not exist
+2023-05-21 22:45:55.563 +04 [1268] FATAL:  role "root" does not exist
+2023-05-21 22:45:57.688 +04 [1276] FATAL:  role "root" does not exist
+2023-05-21 22:45:59.838 +04 [1284] FATAL:  role "root" does not exist
+2023-05-21 22:46:02.002 +04 [1292] FATAL:  role "root" does not exist
+2023-05-21 22:46:04.161 +04 [1300] FATAL:  role "root" does not exist
+2023-05-21 22:46:06.280 +04 [1308] FATAL:  role "root" does not exist
+2023-05-21 22:46:08.409 +04 [1316] FATAL:  role "root" does not exist
+2023-05-21 22:46:10.519 +04 [1324] FATAL:  role "root" does not exist
+2023-05-21 22:46:12.649 +04 [1332] FATAL:  role "root" does not exist
+2023-05-21 22:46:14.767 +04 [1340] FATAL:  role "root" does not exist
+2023-05-21 22:46:16.897 +04 [1348] FATAL:  role "root" does not exist
+2023-05-21 22:46:19.047 +04 [1356] FATAL:  role "root" does not exist
+2023-05-21 22:46:21.158 +04 [1364] FATAL:  role "root" does not exist
+2023-05-21 22:46:23.278 +04 [1372] FATAL:  role "root" does not exist
+2023-05-21 22:46:25.409 +04 [1381] FATAL:  role "root" does not exist
+2023-05-21 22:46:27.528 +04 [1389] FATAL:  role "root" does not exist
+2023-05-21 22:46:29.658 +04 [1397] FATAL:  role "root" does not exist
+2023-05-21 22:46:31.787 +04 [1405] FATAL:  role "root" does not exist
+2023-05-21 22:46:33.928 +04 [1413] FATAL:  role "root" does not exist
+2023-05-21 22:46:36.048 +04 [1421] FATAL:  role "root" does not exist
+2023-05-21 22:46:38.207 +04 [1429] FATAL:  role "root" does not exist
+2023-05-21 22:46:40.330 +04 [1437] FATAL:  role "root" does not exist
+2023-05-21 22:46:42.469 +04 [1445] FATAL:  role "root" does not exist
+2023-05-21 22:46:44.578 +04 [1453] FATAL:  role "root" does not exist
+2023-05-21 22:46:46.730 +04 [1461] FATAL:  role "root" does not exist
+2023-05-21 22:46:48.872 +04 [1469] FATAL:  role "root" does not exist
+2023-05-21 22:46:51.008 +04 [1477] FATAL:  role "root" does not exist
+2023-05-21 22:46:53.178 +04 [1485] FATAL:  role "root" does not exist
+2023-05-21 22:46:55.330 +04 [1493] FATAL:  role "root" does not exist
+2023-05-21 22:46:55.335 +04 [1494] FATAL:  password authentication failed for user "django_user"
+2023-05-21 22:46:55.335 +04 [1494] DETAIL:  Role "django_user" does not exist.
+	Connection matched pg_hba.conf line 99: "host	all	all	0.0.0.0/0	md5"
+2023-05-21 22:46:55.360 +04 [1495] FATAL:  password authentication failed for user "django_user"
+2023-05-21 22:46:55.360 +04 [1495] DETAIL:  Role "django_user" does not exist.
+	Connection matched pg_hba.conf line 99: "host	all	all	0.0.0.0/0	md5"
+2023-05-21 22:46:55.369 +04 [1496] FATAL:  password authentication failed for user "django_user"
+2023-05-21 22:46:55.369 +04 [1496] DETAIL:  Role "django_user" does not exist.
+	Connection matched pg_hba.conf line 99: "host	all	all	0.0.0.0/0	md5"
+2023-05-21 22:46:55.379 +04 [1497] FATAL:  password authentication failed for user "django_user"
+2023-05-21 22:46:55.379 +04 [1497] DETAIL:  Role "django_user" does not exist.
+	Connection matched pg_hba.conf line 99: "host	all	all	0.0.0.0/0	md5"
+2023-05-21 22:46:55.389 +04 [1498] FATAL:  password authentication failed for user "django_user"
+2023-05-21 22:46:55.389 +04 [1498] DETAIL:  Role "django_user" does not exist.
+	Connection matched pg_hba.conf line 99: "host	all	all	0.0.0.0/0	md5"
+2023-05-21 22:46:55.398 +04 [1499] FATAL:  password authentication failed for user "django_user"
+2023-05-21 22:46:55.398 +04 [1499] DETAIL:  Role "django_user" does not exist.
+	Connection matched pg_hba.conf line 99: "host	all	all	0.0.0.0/0	md5"
+2023-05-21 22:46:57.490 +04 [1507] FATAL:  role "root" does not exist
+2023-05-21 22:46:59.660 +04 [1515] FATAL:  role "root" does not exist
+2023-05-21 22:47:01.800 +04 [1523] FATAL:  role "root" does not exist
+2023-05-21 22:47:03.949 +04 [1531] FATAL:  role "root" does not exist
+2023-05-21 22:47:06.100 +04 [1539] FATAL:  role "root" does not exist
+2023-05-21 22:47:08.259 +04 [1547] FATAL:  role "root" does not exist
+2023-05-21 22:47:10.442 +04 [1555] FATAL:  role "root" does not exist
+2023-05-21 22:47:12.595 +04 [1563] FATAL:  role "root" does not exist
+2023-05-21 22:47:14.738 +04 [1571] FATAL:  role "root" does not exist
+2023-05-21 22:47:16.857 +04 [1580] FATAL:  role "root" does not exist
+2023-05-21 22:47:19.009 +04 [1588] FATAL:  role "root" does not exist
+2023-05-21 22:47:21.150 +04 [1596] FATAL:  role "root" does not exist
+2023-05-21 22:47:23.290 +04 [1604] FATAL:  role "root" does not exist
+2023-05-21 22:47:25.426 +04 [1612] FATAL:  role "root" does not exist
+2023-05-21 22:47:27.560 +04 [1620] FATAL:  role "root" does not exist
+2023-05-21 22:47:29.720 +04 [1628] FATAL:  role "root" does not exist
+2023-05-21 22:47:31.851 +04 [1636] FATAL:  role "root" does not exist
+2023-05-21 22:47:33.991 +04 [1644] FATAL:  role "root" does not exist
+2023-05-21 22:47:36.119 +04 [1653] FATAL:  role "root" does not exist
+2023-05-21 22:47:38.297 +04 [1] LOG:  lock file "postmaster.pid" contains wrong PID: 13220 instead of 1
+2023-05-21 22:47:38.297 +04 [1] LOG:  performing immediate shutdown because data directory lock file is invalid
+2023-05-21 22:47:38.297 +04 [1] LOG:  received immediate shutdown request
+2023-05-21 22:47:38.302 +04 [1661] FATAL:  role "root" does not exist
+2023-05-21 22:47:38.320 +04 [1] LOG:  database system is shut down

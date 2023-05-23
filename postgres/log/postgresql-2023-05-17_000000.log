@@ -1,0 +1,38 @@
+2023-05-21 17:40:47.894 +04 [16236] –°–û–û–ë–©–ï–ù–ò–ï:  –Ω–µ —É–¥–∞–ª–æ—Å—å –ø–æ–ª—É—á–∏—Ç—å –¥–∞–Ω–Ω—ã–µ –æ—Ç –∫–ª–∏–µ–Ω—Ç–∞: An existing connection was forcibly closed by the remote host.
+	
+2023-05-21 19:16:15.035 +04 [7428] —ŒŒ¡Ÿ≈Õ»≈:  Ì‡˜‡Ú‡ ÍÓÌÚÓÎ¸Ì‡ˇ ÚÓ˜Í‡: time
+2023-05-21 19:16:15.808 +04 [7428] —ŒŒ¡Ÿ≈Õ»≈:  ÍÓÌÚÓÎ¸Ì‡ˇ ÚÓ˜Í‡ Á‡‚Â¯ÂÌ‡: Á‡ÔËÒ‡ÌÓ ·ÛÙÂÓ‚: 7 (0.0%); ‰Ó·‡‚ÎÂÌÓ Ù‡ÈÎÓ‚ WAL 0, Û‰‡ÎÂÌÓ: 0, ÔÂÂ‡·ÓÚ‡ÌÓ: 0; Á‡ÔËÒ¸=0.751 ÒÂÍ., ÒËÌı.=0.008 ÒÂÍ., ‚ÒÂ„Ó=0.774 ÒÂÍ.; ÒËÌıÓÌËÁËÓ‚‡ÌÓ_Ù‡ÈÎÓ‚=3, Ò‡Ï‡ˇ_‰ÓÎ„‡ˇ_ÒËÌı.=0.003 ÒÂÍ., ÒÂ‰Ìˇˇ=0.003 ÒÂÍ.; ‡ÒÒÚÓˇÌËÂ=41 kB, ÓÊË‰‡ÎÓÒ¸=417 kB
+2023-05-21 19:16:52.772 +04 [16832] –°–û–û–ë–©–ï–ù–ò–ï:  –Ω–µ —É–¥–∞–ª–æ—Å—å –ø–æ–ª—É—á–∏—Ç—å –¥–∞–Ω–Ω—ã–µ –æ—Ç –∫–ª–∏–µ–Ω—Ç–∞: An existing connection was forcibly closed by the remote host.
+	
+2023-05-21 22:45:46.807 +04 [17188] –û–®–ò–ë–ö–ê:  –≤ –∫–æ–Ω—Å—Ç—Ä—É–∫—Ü–∏–∏ UNION —Ç–∏–ø—ã "char" –∏ text –Ω–µ –∏–º–µ—é—Ç –æ–±—â–µ–≥–æ (—Å–∏–º–≤–æ–ª 739)
+2023-05-21 22:45:46.807 +04 [17188] –û–ü–ï–†–ê–¢–û–†:  
+	SELECT cl.relkind, COALESCE(cin.nspname, cln.nspname) as nspname,
+	    COALESCE(ci.relname, cl.relname) as relname, cl.relname as indname
+	FROM pg_catalog.pg_class cl
+	JOIN pg_catalog.pg_namespace cln ON cl.relnamespace=cln.oid
+	LEFT OUTER JOIN pg_catalog.pg_index ind ON ind.indexrelid=cl.oid
+	LEFT OUTER JOIN pg_catalog.pg_class ci ON ind.indrelid=ci.oid
+	LEFT OUTER JOIN pg_catalog.pg_namespace cin ON ci.relnamespace=cin.oid
+	WHERE cl.oid IN (SELECT objid FROM pg_catalog.pg_shdepend WHERE refobjid=10::oid) AND cl.oid > 16383::oid
+	UNION ALL SELECT 'n', null, nspname, null
+	    FROM pg_catalog.pg_namespace nsp
+	    WHERE nsp.oid IN (SELECT objid FROM pg_catalog.pg_shdepend WHERE refobjid=10::oid) AND nsp.oid > 16383::oid
+	UNION ALL SELECT CASE WHEN typtype='d' THEN 'd' ELSE 'y' END, null, typname, null
+	    FROM pg_catalog.pg_type ty
+	    WHERE ty.oid IN (SELECT objid FROM pg_catalog.pg_shdepend WHERE refobjid=10::oid) AND ty.oid > 16383::oid
+	UNION ALL SELECT 'C', null, conname, null
+	    FROM pg_catalog.pg_conversion co
+	    WHERE co.oid IN (SELECT objid FROM pg_catalog.pg_shdepend WHERE refobjid=10::oid) AND co.oid > 16383::oid
+	UNION ALL SELECT CASE WHEN prorettype=2279 THEN 'T' ELSE 'p' END, null, proname, null
+	    FROM pg_catalog.pg_proc pr
+	    WHERE pr.oid IN (SELECT objid FROM pg_catalog.pg_shdepend WHERE refobjid=10::oid) AND pr.oid > 16383::oid
+	UNION ALL SELECT 'o', null, oprname || '('::text || COALESCE(tl.typname, ''::text) || CASE WHEN tl.oid IS NOT NULL
+	        AND tr.oid IS NOT NULL THEN ','::text END || COALESCE(tr.typname, ''::text) || ')'::text, null
+	    FROM pg_catalog.pg_operator op
+	    LEFT JOIN pg_catalog.pg_type tl ON tl.oid=op.oprleft
+	    LEFT JOIN pg_catalog.pg_type tr ON tr.oid=op.oprright
+	    WHERE op.oid IN (SELECT objid FROM pg_catalog.pg_shdepend WHERE refobjid=10::oid) AND op.oid > 16383::oid
+	ORDER BY 1,2,3
+	
+2023-05-21 22:45:51.777 +04 [17188] –°–û–û–ë–©–ï–ù–ò–ï:  –Ω–µ —É–¥–∞–ª–æ—Å—å –ø–æ–ª—É—á–∏—Ç—å –¥–∞–Ω–Ω—ã–µ –æ—Ç –∫–ª–∏–µ–Ω—Ç–∞: An existing connection was forcibly closed by the remote host.
+	
